@@ -2,345 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/controllers/LoginController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/database/Database.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/027-64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/1 (12).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/1 (13) - Cópia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/1 (13).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/1 (15).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/1 (1578).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/1 (16).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/1 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/1 (3).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/1 (4).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/1 (5).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/1175.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/144-128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (1).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (10).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (11).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (12).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (13).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (14).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (15).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (16).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (17).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (18).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (19).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (20).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (21).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (22).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (23).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (24).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (25).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (26).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (27).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (28).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (29).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (3).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (30).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (31).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (4).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (5).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (6).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (7).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (8).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/2 (9).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/36-64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/Global_Communication-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/Hand_Truck-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/IconeCompras.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/IconeSimuladordeVendas.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/Logo Login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/SEO_and_Internet_Marketing-21-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/SEO_and_Internet_Marketing-39-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/SEO_and_Internet_Marketing-61-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/SEO_and_Internet_Marketing-76-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/SEO_and_Internet_Marketing-96-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/Sem título.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/Splash.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/Windows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-001_write_compose_new-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-002_write_pencil_new_edit-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-020_bin_trash_delete-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-042_file_document_copy-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-044_file_document_error-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-065_computer_lock_security-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-113_user_delete_remove-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-116_user_group-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-171_add_new_plus-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-172_remove_delete_minus-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-173_close_remove_exit-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/basic1-187_floppy_save_disc-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/calculator-64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/calculator-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/compra.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/del.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/doc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/ert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/estoque.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/fg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/file-images-view-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/finan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/folder_contacts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/forma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/groups-14-128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/icon24pt_lock-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/icone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/man-human-person-login-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/newLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/nimbus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/okk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/option.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/pay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/power-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/printer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/recive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/sair.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/stop-48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/themes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/icons/ven.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/controllers/LoginController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/database/Database.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/027-64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (12).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (13) - Cópia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (13).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (15).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (1578).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (16).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (3).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (4).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (5).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1175.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/144-128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (1).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (10).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (11).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (12).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (13).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (14).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (15).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (16).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (17).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (18).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (19).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (20).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (21).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (22).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (23).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (24).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (25).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (26).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (27).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (28).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (29).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (3).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (30).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (31).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (4).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (5).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (6).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (7).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (8).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (9).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/36-64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Global_Communication-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Hand_Truck-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/IconeCompras.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/IconeSimuladordeVendas.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Logo Login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/SEO_and_Internet_Marketing-21-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/SEO_and_Internet_Marketing-39-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/SEO_and_Internet_Marketing-61-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/SEO_and_Internet_Marketing-76-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/SEO_and_Internet_Marketing-96-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Sem título.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Splash.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Windows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-001_write_compose_new-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-002_write_pencil_new_edit-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-020_bin_trash_delete-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-042_file_document_copy-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-044_file_document_error-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-065_computer_lock_security-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-113_user_delete_remove-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-116_user_group-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-171_add_new_plus-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-172_remove_delete_minus-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-173_close_remove_exit-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-187_floppy_save_disc-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/calculator-64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/calculator-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/compra.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/del.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/doc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/ert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/estoque.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/fg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/file-images-view-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/finan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/folder_contacts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/forma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/groups-14-128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/icon24pt_lock-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/icone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/man-human-person-login-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/newLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/nimbus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/okk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/option.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/pay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/power-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/printer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/recive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/sair.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/stop-48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/themes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/ven.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/027-64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/1 (12).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/1 (13) - Cópia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/1 (13).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/1 (15).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/1 (1578).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/1 (16).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/1 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/1 (3).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/1 (4).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/1 (5).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/1175.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/144-128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (1).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (10).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (11).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (12).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (13).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (14).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (15).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (16).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (17).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (18).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (19).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (20).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (21).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (22).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (23).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (24).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (25).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (26).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (27).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (28).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (29).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (3).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (30).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (31).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (4).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (5).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (6).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (7).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (8).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/2 (9).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/36-64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/Global_Communication-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/Hand_Truck-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/IconeCompras.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/IconeSimuladordeVendas.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/Logo Login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/SEO_and_Internet_Marketing-21-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/SEO_and_Internet_Marketing-39-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/SEO_and_Internet_Marketing-61-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/SEO_and_Internet_Marketing-76-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/SEO_and_Internet_Marketing-96-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/Sem título.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/Splash.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/Windows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-001_write_compose_new-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-002_write_pencil_new_edit-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-020_bin_trash_delete-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-042_file_document_copy-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-044_file_document_error-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-065_computer_lock_security-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-113_user_delete_remove-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-116_user_group-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-171_add_new_plus-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-172_remove_delete_minus-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-173_close_remove_exit-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/basic1-187_floppy_save_disc-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/calculator-64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/calculator-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/compra.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/del.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/doc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/ert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/estoque.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/fg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/file-images-view-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/finan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/folder_contacts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/forma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/groups-14-128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/icon24pt_lock-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/icone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/man-human-person-login-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/newLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/nimbus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/okk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/option.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/pay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/power-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/printer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/recive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/sair.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/stop-48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/themes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/ven.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sys-Gestor.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Gestor/project/views/login/login.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/views/login/login.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllers/LoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/database/Database.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/login/login.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ini" afterPath="$PROJECT_DIR$/config.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -700,6 +363,14 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1515340401317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1515340401317</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -718,10 +389,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2777778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.330033" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.330033" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25833333" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25833333" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -751,6 +422,8 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
