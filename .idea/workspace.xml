@@ -2,95 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="login commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/backgroud.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/icons8-administrator-male-26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icons/icons8-lock-26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/Login.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/027-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (12).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (15).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (1578).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (16).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (3).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (4).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1 (5).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/1175.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/144-128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (17).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (18).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (20).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (21).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (22).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (23).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (24).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (25).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (26).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (27).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (28).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (29).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (30).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/2 (31).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/36-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Global_Communication-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Hand_Truck-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/IconeCompras.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/IconeSimuladordeVendas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/SEO_and_Internet_Marketing-21-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/SEO_and_Internet_Marketing-39-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/SEO_and_Internet_Marketing-61-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/SEO_and_Internet_Marketing-76-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/SEO_and_Internet_Marketing-96-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Sem título.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Splash.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/Windows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-001_write_compose_new-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-002_write_pencil_new_edit-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-020_bin_trash_delete-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-042_file_document_copy-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-044_file_document_error-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-065_computer_lock_security-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-113_user_delete_remove-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-116_user_group-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-171_add_new_plus-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-172_remove_delete_minus-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-173_close_remove_exit-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/basic1-187_floppy_save_disc-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/calculator-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/calculator-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/compra.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/del.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/doc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/ert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/estoque.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/fg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/file-images-view-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/folder_contacts.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/forma.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/icon24pt_lock-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/man-human-person-login-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/nimbus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/okk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/pay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/power-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/printer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/recive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/sair.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/stop-48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/themes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/ven.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/Main.class" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/controllers/LoginController.class" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/controllers/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/newLogo.png" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/icons/newLogo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Sys-Gestor/views/login/login.fxml" afterPath="$PROJECT_DIR$/out/production/Sys-Gestor/views/login/login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -151,7 +63,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="285">
               <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -162,17 +74,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="525">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,8 +89,18 @@
       <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -278,43 +196,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Gestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gestor" type="462c0819:PsiDirectoryNode" />
+              <item name="Sys-Gestor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sys-Gestor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Gestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gestor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sys-Gestor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sys-Gestor" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Gestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gestor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gestor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gestor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sys-Gestor" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,6 +380,11 @@
       <Port>5050</Port>
     </configuration>
   </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -529,22 +439,21 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="732" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27722773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27722773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330033" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25833333" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21458334" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -559,6 +468,7 @@
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -599,6 +509,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -662,22 +602,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="72" lean-forward="false" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/login.fxml" />
     <entry file="file://$PROJECT_DIR$/src/views/login/login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -696,7 +633,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -753,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="72" lean-forward="false" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,40 +704,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/login/login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="23" column="235" lean-forward="false" selection-start-line="23" selection-start-column="230" selection-end-line="23" selection-end-column="235" />
-          <folding>
-            <marker date="1515451895790" expanded="true" signature="1851:1982" ph="..." />
-            <marker date="1515451895790" expanded="true" signature="1874:1957" ph="..." />
-            <marker date="1515451895790" expanded="true" signature="2111:2263" ph="..." />
-            <marker date="1515451895790" expanded="true" signature="2134:2238" ph="..." />
-            <marker date="1515451895790" expanded="true" signature="2392:2530" ph="..." />
-            <marker date="1515451895790" expanded="true" signature="2415:2505" ph="..." />
-            <marker date="1515451895790" expanded="true" signature="2664:2783" ph="..." />
-            <marker date="1515451895790" expanded="true" signature="2686:2762" ph="..." />
-            <marker date="1515451895790" expanded="true" signature="3033:3114" ph="..." />
-            <marker date="1515451895790" expanded="true" signature="3049:3099" ph="..." />
-            <marker date="1515451895790" expanded="true" signature="3434:3534" ph="..." />
-            <marker date="1515451895790" expanded="true" signature="3450:3519" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="285">
           <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -813,15 +728,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="525">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -889,8 +816,21 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>jfoenix</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
