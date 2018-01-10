@@ -50,8 +50,18 @@ public class Database{
             rs = stm.executeQuery(sql);
         }
         catch (SQLException ex) {
-            //JOptionPane.showMessageDialog (null, "Erro ao executar função!\n Erro" +ex.getMessage());
+            JOptionPane.showMessageDialog (null, "QUERY ERROR!\n " +ex.getMessage());
         }
+    }
+
+    public final void killDatabaseTasks() {
+        this.conectar();
+        this.executarSQL("select count(*) from pg_stat_activity");
+        this.executarSQL("select pid,query,state from pg_stat_activity where state like 'idle'");
+        this.executarSQL("select pg_terminate_backend(pid) from pg_stat_activity where state='idle' and pid <> pg_backend_pid()");
+        this.executarSQL("select pid,query,state from pg_stat_activity where state like 'idle'");
+        this.desconectar();
+        System.exit(0);
     }
 
     public void desconectar(){
