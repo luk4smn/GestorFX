@@ -15,7 +15,7 @@ import javafx.scene.Node;
 import javafx.scene.layout.AnchorPane;
 import javafx.util.Duration;
 
-public class HomeController implements Initializable {
+public class DashboardController implements Initializable {
 
     @FXML
     private AnchorPane holderPane;
@@ -49,7 +49,7 @@ public class HomeController implements Initializable {
             controls = FXMLLoader.load(getClass().getResource("/views/dashboard/controls.fxml"));
             setNode(pricing);
         } catch (IOException ex) {
-            Logger.getLogger(HomeController.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(DashboardController.class.getName()).log(Level.SEVERE, null, ex);
         }
 
     }
