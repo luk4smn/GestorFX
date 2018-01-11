@@ -6,15 +6,18 @@ import database.Database;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ProgressBar;
+import javafx.stage.Stage;
+import managers.Home;
 import models.Login;
 import java.net.URL;
-import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class LoginController implements Initializable{
 
     Database database = new Database();
     Login model_login = new Login();
+    Home model_home = new Home();
+    Stage newStage = new Stage();
 
     @FXML
     private ProgressBar loginProgressBar;
@@ -29,19 +32,15 @@ public class LoginController implements Initializable{
     }
 
     @FXML
-    public void handleLoginButton() throws SQLException {
+    public void handleLoginButton() throws Exception {
         String user = textFiledUser.getText();
         String passoword = passwordFieldUser.getText();
         model_login.login(user,passoword,database);
         if (model_login.getAuthUser() != null) {
             new Thread(this::run).start();
-        } else {
-//            close();
-        }
-    }
+            newWindow(model_home,newStage);
 
-    public void close() {
-        database.killDatabaseTasks();
+        }
     }
 
     private void run() {
@@ -52,6 +51,19 @@ public class LoginController implements Initializable{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+        }
+    }
+
+    public void close() {
+        database.killDatabaseTasks();
+    }
+
+    public void newWindow(Home model_home, Stage newStage) throws Exception {
+        try {
+            model_home.start(newStage);
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }

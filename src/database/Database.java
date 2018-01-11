@@ -1,5 +1,6 @@
 package database;
 
+import javafx.application.Platform;
 import javax.swing.*;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -61,7 +62,7 @@ public class Database{
         this.executarSQL("select pg_terminate_backend(pid) from pg_stat_activity where state='idle' and pid <> pg_backend_pid()");
         this.executarSQL("select pid,query,state from pg_stat_activity where state like 'idle'");
         this.desconectar();
-        System.exit(0);
+        Platform.exit();
     }
 
     public void desconectar(){
