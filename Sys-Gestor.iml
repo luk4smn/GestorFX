@@ -7,15 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../jars/postgresql-42.1.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" exported="" name="jfoenix" level="project" />
+    <orderEntry type="library" name="jfoenix" level="project" />
+    <orderEntry type="library" name="postgresql-42.1.4" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
