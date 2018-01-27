@@ -15,13 +15,16 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("/views/login/login.fxml"));
 
         primaryStage.setScene(new Scene(root));
+
         primaryStage.setResizable(false);
+
         primaryStage.initStyle(StageStyle.UNDECORATED);
+
         primaryStage.getIcons().add(new Image("/icons/icone.png"));
+
         primaryStage.show();
 
     }
-
 
     public static void main(String[] args) {
         launch(args);

@@ -5,7 +5,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
+import javafx.stage.Screen;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class Home extends Application {
 
@@ -14,7 +16,16 @@ public class Home extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("/views/dashboard/FXMLDocument.fxml"));
 
         stage.setScene(new Scene(root));
+
         stage.getIcons().add(new Image("/icons/icone.png"));
+
+        stage.initStyle(StageStyle.DECORATED);
+
+        stage.centerOnScreen();
+
+        stage.setHeight(Screen.getPrimary().getVisualBounds().getHeight());
+
+        stage.setWidth(Screen.getPrimary().getVisualBounds().getWidth());
 
         stage.show();
     }

@@ -7,6 +7,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ProgressBar;
 import javafx.stage.Stage;
+import javafx.stage.Window;
 import managers.Home;
 import models.Login;
 import java.net.URL;
@@ -20,8 +21,6 @@ public class LoginController implements Initializable{
     Stage newStage = new Stage();
 
     @FXML
-    private ProgressBar loginProgressBar;
-    @FXML
     private JFXTextField textFiledUser;
     @FXML
     private JFXPasswordField passwordFieldUser;
@@ -34,36 +33,33 @@ public class LoginController implements Initializable{
     @FXML
     public void handleLoginButton() throws Exception {
         String user = textFiledUser.getText();
+
         String passoword = passwordFieldUser.getText();
+
         model_login.login(user,passoword,database);
+
         if (model_login.getAuthUser() != null) {
-            new Thread(this::run).start();
+
             newWindow(model_home,newStage);
-
         }
-    }
-
-    private void run() {
-        for (int i = 0; i < 101; i++) {
-            try {
-                Thread.sleep(600);
-                loginProgressBar.setProgress(i);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    public void close() {
-        database.killDatabaseTasks();
     }
 
     public void newWindow(Home model_home, Stage newStage) throws Exception {
         try {
+            Window telaDeLogin = textFiledUser.getScene().getWindow();
+            telaDeLogin.hide();
+
             model_home.start(newStage);
 
         } catch (Exception e) {
+
             e.printStackTrace();
         }
+    }
+
+    public void close() {
+
+        database.killDatabaseTasks();
+
     }
 }

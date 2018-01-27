@@ -52,6 +52,5 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <ProgressBar fx:id="loginProgressBar" layoutX="510.0" layoutY="430.0" prefHeight="20.0" prefWidth="363.0" progress="0.0" />
    </children>
 </AnchorPane>

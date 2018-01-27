@@ -43,7 +43,7 @@ and open the template in the editor.
 
 .custom-progress-bar>.track {
 /*	-fx-background-color: derive(#D5D5D5, 50.0%);*/
-        -fx-background-color:#CDCDCD;
+    -fx-background-color:#CDCDCD;
 	-fx-background-radius: 2.0;
 	-fx-padding: 0.0;
 }

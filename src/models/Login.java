@@ -12,6 +12,7 @@ public class Login {
      * @return the authenticadedUser
      */
     public String getAuthUser() {
+
         return authenticadedUser;
     }
 
@@ -19,24 +20,35 @@ public class Login {
      * @param user the authenticadedUser to set
      */
     public void setAuthUser(String user) {
+
         this.authenticadedUser = user;
     }
 
     public void login(String user, String password, Database database) throws SQLException {
+
         database.conectar();
+
         database.executarSQL("select * from users where users.user ='" + user + "' and users.password ='" + password + "'");
+
             if(database.rs.first()){
+
                 setAuthUser(database.rs.getString("user"));
-            }else{
+            }
+            else{
                 setAuthUser(null);
+
                 Alert alert = new Alert(Alert.AlertType.WARNING);
+
                 alert.setTitle("Atenção !");
+
                 alert.setHeaderText("Dados Incorretos");
+
                 alert.setContentText("Revise as informações e tente novamente");
+
                 alert.showAndWait();
             }
+
         database.desconectar();
     }
-
 
 }

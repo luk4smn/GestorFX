@@ -33,6 +33,7 @@ public class DashboardController implements Initializable {
     private JFXButton btnAlerts;
 
     AnchorPane contacts,alerts,pricing,profiles,widgets,controls;
+
     @FXML
     private JFXButton btnControls;
 
