@@ -1,8 +1,6 @@
 package models;
 import database.Database;
 import javafx.scene.control.Alert;
-import javafx.stage.Stage;
-
 import java.sql.SQLException;
 
 public class Login {
