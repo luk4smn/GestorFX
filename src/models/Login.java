@@ -4,7 +4,8 @@ import javafx.scene.control.Alert;
 import java.sql.SQLException;
 
 public class Login {
-    private String authenticadedUser;
+
+    private static String authenticadedUser;
 
     /**
      * @return the authenticadedUser

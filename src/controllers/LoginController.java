@@ -20,7 +20,7 @@ public class LoginController implements Initializable{
     Database database = new Database();
     Login model_login = new Login();
     Home manager_home = new Home();
-    Stage newStage = new Stage();
+    Stage newStage    = new Stage();
 
     @FXML
     private JFXTextField textFiledUser;

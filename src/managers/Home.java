@@ -8,12 +8,13 @@ import javafx.scene.image.Image;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import models.Login;
 
 public class Home extends Application {
 
     @Override
     public void start(Stage stage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/views/dashboard/FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/views/dashboard/dashboard.fxml"));
 
         stage.setScene(new Scene(root));
 
@@ -23,9 +24,11 @@ public class Home extends Application {
 
         stage.centerOnScreen();
 
-        stage.setHeight(Screen.getPrimary().getVisualBounds().getHeight());
+        stage.setMaximized(true);
 
-        stage.setWidth(Screen.getPrimary().getVisualBounds().getWidth());
+//        stage.setHeight(Screen.getPrimary().getVisualBounds().getHeight());
+//
+//        stage.setWidth(Screen.getPrimary().getVisualBounds().getWidth());
 
         stage.show();
     }

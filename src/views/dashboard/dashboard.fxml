@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #2D2D2D;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
+   <children>
+      <JFXToolbar layoutY="-1.0" prefHeight="0.0" prefWidth="1200.0" style="-fx-background-color: #3C3C3C;" styleClass="jfx-toolbar" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <right>
+            
+         </right>
+      </JFXToolbar>
+      <AnchorPane layoutX="-3.0" layoutY="39.0" prefHeight="713.0" prefWidth="188.0" style="-fx-background-color: #27449b;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="-3.0" AnchorPane.topAnchor="39.0">
+         <children>
+            <JFXButton fx:id="homeButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="106.0" prefHeight="28.0" prefWidth="179.0" text="Principal" textFill="WHITE">
+               <font>
+                  <Font name="Ubuntu" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons/icons8-home-24.png" />
+                     </image>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="clientButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="150.0" prefHeight="28.0" prefWidth="179.0" text="Clientes" textFill="WHITE">
+               <font>
+                  <Font name="Ubuntu" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons/icons8-profile-filled-24.png" />
+                     </image>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="providerButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="191.0" prefHeight="28.0" prefWidth="179.0" text="Fornecedores" textFill="WHITE">
+               <font>
+                  <Font name="Ubuntu" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons/icons8-truck-filled-24.png" />
+                     </image>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <ImageView fitHeight="59.0" fitWidth="59.0" layoutX="65.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons/icons8-male-user-filled-50.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="userLabel" alignment="CENTER" layoutX="5.0" layoutY="67.0" prefHeight="20.0" prefWidth="179.0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <JFXButton fx:id="teamButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="233.0" prefHeight="28.0" prefWidth="179.0" text="Funcionários" textFill="WHITE">
+               <font>
+                  <Font name="Ubuntu" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons/icons8-people-filled-24.png" />
+                     </image>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="productButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="275.0" prefHeight="28.0" prefWidth="179.0" text="Produtos" textFill="WHITE">
+               <font>
+                  <Font name="Ubuntu" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons/icons8-open-box-filled-24.png" />
+                     </image>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="paymentButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="316.0" prefHeight="28.0" prefWidth="179.0" text="Contas a Pagar" textFill="WHITE">
+               <font>
+                  <Font name="Ubuntu" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons/icons8-check-24.png" />
+                     </image>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="reciveButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="357.0" prefHeight="28.0" prefWidth="179.0" text="Contas a Receber" textFill="WHITE">
+               <font>
+                  <Font name="Ubuntu" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons/icons8-receive-cash-24.png" />
+                     </image>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="reportButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="403.0" prefHeight="28.0" prefWidth="179.0" text="Relatórios" textFill="WHITE">
+               <font>
+                  <Font name="Ubuntu" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons/icons8-download-graph-report-filled-24.png" />
+                     </image>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="reciveScreenPane" layoutX="185.0" layoutY="39.0" prefHeight="713.0" prefWidth="1017.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="185.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="39.0" />
+   </children>
+</AnchorPane>
