@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXToolbar?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Glow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #2D2D2D;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #27449b;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
    <children>
-      <JFXToolbar layoutY="-1.0" prefHeight="0.0" prefWidth="1200.0" style="-fx-background-color: #3C3C3C;" styleClass="jfx-toolbar" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
-         <right>
-            
-         </right>
-      </JFXToolbar>
-      <AnchorPane layoutX="-3.0" layoutY="39.0" prefHeight="713.0" prefWidth="188.0" style="-fx-background-color: #27449b;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="-3.0" AnchorPane.topAnchor="39.0">
+      <AnchorPane layoutX="-3.0" layoutY="-4.0" prefHeight="756.0" prefWidth="188.0" style="-fx-background-color: #27449b;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="-3.0" AnchorPane.topAnchor="-4.0">
          <children>
-            <JFXButton fx:id="homeButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="106.0" prefHeight="28.0" prefWidth="179.0" text="Principal" textFill="WHITE">
+            <Label fx:id="userLabel" alignment="CENTER" layoutX="5.0" layoutY="98.0" prefHeight="20.0" prefWidth="179.0" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Separator layoutX="14.0" layoutY="119.0" prefHeight="20.0" prefWidth="159.0" />
+            <JFXButton fx:id="homeButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="137.0" prefHeight="28.0" prefWidth="179.0" text="    Principal" textFill="WHITE">
                <font>
                   <Font name="Ubuntu" size="14.0" />
                </font>
@@ -33,7 +34,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="clientButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="150.0" prefHeight="28.0" prefWidth="179.0" text="Clientes" textFill="WHITE">
+            <JFXButton fx:id="clientButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="181.0" prefHeight="28.0" prefWidth="179.0" text="    Clientes" textFill="WHITE">
                <font>
                   <Font name="Ubuntu" size="14.0" />
                </font>
@@ -48,7 +49,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="providerButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="191.0" prefHeight="28.0" prefWidth="179.0" text="Fornecedores" textFill="WHITE">
+            <JFXButton fx:id="providerButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="222.0" prefHeight="28.0" prefWidth="179.0" text="    Fornecedores" textFill="WHITE">
                <font>
                   <Font name="Ubuntu" size="14.0" />
                </font>
@@ -63,16 +64,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <ImageView fitHeight="59.0" fitWidth="59.0" layoutX="65.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../icons/icons8-male-user-filled-50.png" />
-               </image>
-            </ImageView>
-            <Label fx:id="userLabel" alignment="CENTER" layoutX="5.0" layoutY="67.0" prefHeight="20.0" prefWidth="179.0" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font size="10.0" />
-               </font></Label>
-            <JFXButton fx:id="teamButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="233.0" prefHeight="28.0" prefWidth="179.0" text="Funcionários" textFill="WHITE">
+            <JFXButton fx:id="teamButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="264.0" prefHeight="28.0" prefWidth="179.0" text="    Funcionários" textFill="WHITE">
                <font>
                   <Font name="Ubuntu" size="14.0" />
                </font>
@@ -87,7 +79,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="productButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="275.0" prefHeight="28.0" prefWidth="179.0" text="Produtos" textFill="WHITE">
+            <JFXButton fx:id="productButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="306.0" prefHeight="28.0" prefWidth="179.0" text="    Produtos" textFill="WHITE">
                <font>
                   <Font name="Ubuntu" size="14.0" />
                </font>
@@ -102,7 +94,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="paymentButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="316.0" prefHeight="28.0" prefWidth="179.0" text="Contas a Pagar" textFill="WHITE">
+            <JFXButton fx:id="paymentButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="347.0" prefHeight="28.0" prefWidth="179.0" text="    Contas a Pagar" textFill="WHITE">
                <font>
                   <Font name="Ubuntu" size="14.0" />
                </font>
@@ -117,7 +109,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="reciveButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="357.0" prefHeight="28.0" prefWidth="179.0" text="Contas a Receber" textFill="WHITE">
+            <JFXButton fx:id="reciveButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="388.0" prefHeight="28.0" prefWidth="179.0" text="    Contas a Receber" textFill="WHITE">
                <font>
                   <Font name="Ubuntu" size="14.0" />
                </font>
@@ -132,7 +124,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="reportButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="403.0" prefHeight="28.0" prefWidth="179.0" text="Relatórios" textFill="WHITE">
+            <JFXButton fx:id="reportButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="434.0" prefHeight="28.0" prefWidth="179.0" text="    Relatórios" textFill="WHITE">
                <font>
                   <Font name="Ubuntu" size="14.0" />
                </font>
@@ -147,8 +139,29 @@
                   </ImageView>
                </graphic>
             </JFXButton>
+            <ImageView fitHeight="58.0" fitWidth="48.0" layoutX="71.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../icons/icons8-male-user-filled-50.png" />
+               </image>
+               <effect>
+                  <Glow />
+               </effect>
+            </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="reciveScreenPane" layoutX="185.0" layoutY="39.0" prefHeight="713.0" prefWidth="1017.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="185.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="39.0" />
+      <AnchorPane fx:id="reciveScreenPane" layoutX="185.0" layoutY="25.0" prefHeight="728.0" prefWidth="1015.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="185.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+         <children>
+            <Separator layoutX="-12.0" layoutY="-60.0" orientation="VERTICAL" prefHeight="789.0" prefWidth="22.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.topAnchor="-60.0" />
+         </children></AnchorPane>
+      <JFXButton fx:id="closeButton" buttonType="RAISED" layoutX="1172.0" layoutY="3.0" onAction="#close" prefHeight="20.0" prefWidth="29.0" text="X" textFill="WHITE" AnchorPane.rightAnchor="-1.0">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="minimizeButton" buttonType="RAISED" layoutX="1142.0" layoutY="-4.0" onAction="#minimize" prefHeight="24.0" prefWidth="30.0" text="-" textFill="WHITE" AnchorPane.rightAnchor="28.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
    </children>
 </AnchorPane>

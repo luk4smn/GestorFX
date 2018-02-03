@@ -20,15 +20,13 @@ public class Home extends Application {
 
         stage.getIcons().add(new Image("/icons/icone.png"));
 
-        stage.initStyle(StageStyle.DECORATED);
+        stage.initStyle(StageStyle.UNDECORATED);
 
         stage.centerOnScreen();
 
-        stage.setMaximized(true);
+        stage.setHeight(Screen.getPrimary().getVisualBounds().getHeight());
 
-//        stage.setHeight(Screen.getPrimary().getVisualBounds().getHeight());
-//
-//        stage.setWidth(Screen.getPrimary().getVisualBounds().getWidth());
+        stage.setWidth(Screen.getPrimary().getVisualBounds().getWidth());
 
         stage.show();
     }

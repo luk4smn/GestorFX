@@ -76,8 +76,6 @@ public class LoginController implements Initializable{
     }
 
     public void close() {
-
         database.killDatabaseTasks();
-
     }
 }
