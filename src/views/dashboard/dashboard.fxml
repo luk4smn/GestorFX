@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
@@ -10,16 +17,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #27449b;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #27449b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
    <children>
-      <AnchorPane layoutX="-3.0" layoutY="-4.0" prefHeight="756.0" prefWidth="188.0" style="-fx-background-color: #27449b;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="-3.0" AnchorPane.topAnchor="-4.0">
+      <AnchorPane layoutX="-3.0" layoutY="-4.0" prefHeight="756.0" prefWidth="188.0" style="-fx-background-color: #0944A0;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="-3.0" AnchorPane.topAnchor="-4.0">
          <children>
             <Label fx:id="userLabel" alignment="CENTER" layoutX="5.0" layoutY="98.0" prefHeight="20.0" prefWidth="179.0" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font size="10.0" />
                </font></Label>
             <Separator layoutX="14.0" layoutY="119.0" prefHeight="20.0" prefWidth="159.0" />
-            <JFXButton fx:id="homeButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="137.0" prefHeight="28.0" prefWidth="179.0" text="    Principal" textFill="WHITE">
+            <JFXButton fx:id="homeButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="137.0" onAction="#showHome" prefHeight="28.0" prefWidth="179.0" text="    Principal" textFill="WHITE">
                <font>
                   <Font name="Ubuntu" size="14.0" />
                </font>
@@ -34,7 +41,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="clientButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="181.0" prefHeight="28.0" prefWidth="179.0" text="    Clientes" textFill="WHITE">
+            <JFXButton fx:id="clientButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="181.0" onAction="#showClientes" prefHeight="28.0" prefWidth="179.0" text="    Clientes" textFill="WHITE">
                <font>
                   <Font name="Ubuntu" size="14.0" />
                </font>
@@ -149,19 +156,6 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="reciveScreenPane" layoutX="185.0" layoutY="25.0" prefHeight="728.0" prefWidth="1015.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="185.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
-         <children>
-            <Separator layoutX="-12.0" layoutY="-60.0" orientation="VERTICAL" prefHeight="789.0" prefWidth="22.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.topAnchor="-60.0" />
-         </children></AnchorPane>
-      <JFXButton fx:id="closeButton" buttonType="RAISED" layoutX="1172.0" layoutY="3.0" onAction="#close" prefHeight="20.0" prefWidth="29.0" text="X" textFill="WHITE" AnchorPane.rightAnchor="-1.0">
-         <font>
-            <Font name="System Bold" size="11.0" />
-         </font>
-      </JFXButton>
-      <JFXButton fx:id="minimizeButton" buttonType="RAISED" layoutX="1142.0" layoutY="-4.0" onAction="#minimize" prefHeight="24.0" prefWidth="30.0" text="-" textFill="WHITE" AnchorPane.rightAnchor="28.0">
-         <font>
-            <Font name="System Bold" size="18.0" />
-         </font>
-      </JFXButton>
+      <AnchorPane fx:id="reciveScreenPane" layoutX="185.0" layoutY="-3.0" prefHeight="756.0" prefWidth="1015.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="185.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-3.0" />
    </children>
 </AnchorPane>

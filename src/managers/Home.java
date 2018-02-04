@@ -20,13 +20,9 @@ public class Home extends Application {
 
         stage.getIcons().add(new Image("/icons/icone.png"));
 
-        stage.initStyle(StageStyle.UNDECORATED);
+        stage.setTitle("Gestor");
 
-        stage.centerOnScreen();
-
-        stage.setHeight(Screen.getPrimary().getVisualBounds().getHeight());
-
-        stage.setWidth(Screen.getPrimary().getVisualBounds().getWidth());
+        stage.setMaximized(true);
 
         stage.show();
     }
