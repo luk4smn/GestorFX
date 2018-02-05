@@ -25,9 +25,9 @@ public class Login {
 
     public void login(String user, String password, Database database) throws SQLException {
 
-        database.conectar();
+        database.connect();
 
-        database.executarSQL("select * from users where users.user ='" + user + "' and users.password ='" + password + "'");
+        database.executeSQL("select * from users where users.user ='" + user + "' and users.password ='" + password + "'");
 
             if(database.rs.first()){
 
@@ -47,7 +47,7 @@ public class Login {
                 alert.showAndWait();
             }
 
-        database.desconectar();
+        database.disconnect();
     }
 
 }

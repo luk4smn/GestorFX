@@ -21,7 +21,6 @@ import models.Login;
 
 public class HomeController implements Initializable {
     Login user = new Login();
-    Database database = new Database();
 
     @FXML
     private AnchorPane reciveScreenPane;

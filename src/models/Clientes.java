@@ -1,158 +1,172 @@
 package models;
 
-public class Clientes {
+import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.StringProperty;
 
-    private int    id;
-    private String nome;
-    private String razao_social;
-    private String rg;
-    private String ie;
-    private String cpf;
-    private String cnpj;
-    private String telefone1;
-    private String telefone2;
-    private String telefone3;
-    private String email;
-    private String bairro;
-    private String endereco;
-    private String cep;
-    private String estado;
-    private String cidade;
-    private String obs;
+public class Clientes extends RecursiveTreeObject<Clientes> {
 
-    public int getId() {
+    private IntegerProperty id;
+    private StringProperty nome;
+    private StringProperty nome_fantasia;
+    private StringProperty razao_social;
+    private StringProperty rg;
+    private StringProperty ie;
+    private StringProperty cpf;
+    private StringProperty cnpj;
+    private StringProperty telefone1;
+    private StringProperty telefone2;
+    private StringProperty telefone3;
+    private StringProperty email;
+    private StringProperty bairro;
+    private StringProperty endereco;
+    private StringProperty cep;
+    private StringProperty estado;
+    private StringProperty cidade;
+    private StringProperty obs;
+
+
+    public IntegerProperty getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(IntegerProperty id) {
         this.id = id;
     }
 
-    public String getNome() {
+    public StringProperty getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public void setNome(StringProperty nome) {
         this.nome = nome;
     }
 
-    public String getRazao_social() {
+    public StringProperty getNome_fantasia() {
+        return nome_fantasia;
+    }
+
+    public void setNome_fantasia(StringProperty nome_fantasia) {
+        this.nome_fantasia = nome_fantasia;
+    }
+
+    public StringProperty getRazao_social() {
         return razao_social;
     }
 
-    public void setRazao_social(String razao_social) {
+    public void setRazao_social(StringProperty razao_social) {
         this.razao_social = razao_social;
     }
 
-    public String getRg() {
+    public StringProperty getRg() {
         return rg;
     }
 
-    public void setRg(String rg) {
+    public void setRg(StringProperty rg) {
         this.rg = rg;
     }
 
-    public String getIe() {
+    public StringProperty getIe() {
         return ie;
     }
 
-    public void setIe(String ie) {
+    public void setIe(StringProperty ie) {
         this.ie = ie;
     }
 
-    public String getCpf() {
+    public StringProperty getCpf() {
         return cpf;
     }
 
-    public void setCpf(String cpf) {
+    public void setCpf(StringProperty cpf) {
         this.cpf = cpf;
     }
 
-    public String getCnpj() {
+    public StringProperty getCnpj() {
         return cnpj;
     }
 
-    public void setCnpj(String cnpj) {
+    public void setCnpj(StringProperty cnpj) {
         this.cnpj = cnpj;
     }
 
-    public String getTelefone1() {
+    public StringProperty getTelefone1() {
         return telefone1;
     }
 
-    public void setTelefone1(String telefone1) {
+    public void setTelefone1(StringProperty telefone1) {
         this.telefone1 = telefone1;
     }
 
-    public String getTelefone2() {
+    public StringProperty getTelefone2() {
         return telefone2;
     }
 
-    public void setTelefone2(String telefone2) {
+    public void setTelefone2(StringProperty telefone2) {
         this.telefone2 = telefone2;
     }
 
-    public String getTelefone3() {
+    public StringProperty getTelefone3() {
         return telefone3;
     }
 
-    public void setTelefone3(String telefone3) {
+    public void setTelefone3(StringProperty telefone3) {
         this.telefone3 = telefone3;
     }
 
-    public String getEmail() {
+    public StringProperty getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
+    public void setEmail(StringProperty email) {
         this.email = email;
     }
 
-    public String getBairro() {
+    public StringProperty getBairro() {
         return bairro;
     }
 
-    public void setBairro(String bairro) {
+    public void setBairro(StringProperty bairro) {
         this.bairro = bairro;
     }
 
-    public String getEndereco() {
+    public StringProperty getEndereco() {
         return endereco;
     }
 
-    public void setEndereco(String endereco) {
+    public void setEndereco(StringProperty endereco) {
         this.endereco = endereco;
     }
 
-    public String getCep() {
+    public StringProperty getCep() {
         return cep;
     }
 
-    public void setCep(String cep) {
+    public void setCep(StringProperty cep) {
         this.cep = cep;
     }
 
-    public String getEstado() {
+    public StringProperty getEstado() {
         return estado;
     }
 
-    public void setEstado(String estado) {
+    public void setEstado(StringProperty estado) {
         this.estado = estado;
     }
 
-    public String getCidade() {
+    public StringProperty getCidade() {
         return cidade;
     }
 
-    public void setCidade(String cidade) {
+    public void setCidade(StringProperty cidade) {
         this.cidade = cidade;
     }
 
-    public String getObs() {
+    public StringProperty getObs() {
         return obs;
     }
 
-    public void setObs(String obs) {
+    public void setObs(StringProperty obs) {
         this.obs = obs;
     }
 }

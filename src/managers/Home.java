@@ -20,7 +20,7 @@ public class Home extends Application {
 
         stage.getIcons().add(new Image("/icons/icone.png"));
 
-        stage.setTitle("Gestor");
+        stage.setTitle("Sentinel - Sistema de Gestão Empresarial");
 
         stage.setMaximized(true);
 

@@ -20,7 +20,7 @@ public class Database{
     private static final Properties config = new Properties();
     private static final String arquivo = "config.ini";
 
-    public void conectar(){                                           //metodo responsável por realizar a conexao cm o BD
+    public void connect(){                                           //metodo responsável por realizar a conexao cm o BD
         try {
 
             try {
@@ -50,11 +50,11 @@ public class Database{
 
             Logger.getLogger(Database.class.getName()).log(Level.SEVERE, null, ex);
 
-            desconectar();
+            disconnect();
         }
     }
 
-    public void executarSQL(String sql){
+    public void executeSQL(String sql){
         try{
             stm = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 
@@ -67,16 +67,16 @@ public class Database{
     }
 
     public final void killDatabaseTasks() {
-        this.conectar();
-        this.executarSQL("select count(*) from pg_stat_activity");
-        this.executarSQL("select pid,query,state from pg_stat_activity where state like 'idle'");
-        this.executarSQL("select pg_terminate_backend(pid) from pg_stat_activity where state='idle' and pid <> pg_backend_pid()");
-        this.executarSQL("select pid,query,state from pg_stat_activity where state like 'idle'");
-        this.desconectar();
+        this.connect();
+        this.executeSQL("select count(*) from pg_stat_activity");
+        this.executeSQL("select pid,query,state from pg_stat_activity where state like 'idle'");
+        this.executeSQL("select pg_terminate_backend(pid) from pg_stat_activity where state='idle' and pid <> pg_backend_pid()");
+        this.executeSQL("select pid,query,state from pg_stat_activity where state like 'idle'");
+        this.disconnect();
         Platform.exit();
     }
 
-    public void desconectar(){
+    public void disconnect(){
         try {
             conn.close();
         }
