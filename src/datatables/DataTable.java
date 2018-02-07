@@ -8,7 +8,6 @@ import javafx.collections.ObservableList;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.util.Callback;
-
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.IntStream;
 
@@ -25,7 +24,6 @@ public class DataTable {
             /**********************************
              * TABLE COLUMN ADDED DYNAMICALLY *
              **********************************/
-
             IntStream.range(0, database.rs.getMetaData().getColumnCount()).forEach((int value) -> {
                 TableColumn column = new TableColumn(colunasArray[value]);
                 column.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<ObservableList,String>,ObservableValue<String>>(){
@@ -36,7 +34,6 @@ public class DataTable {
                 tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
                 tableView.setPrefWidth(100.0);
                 tableView.getColumns().add(column);
-                System.out.println("Column ["+value+"] ");
             });
 
             /********************************
@@ -50,7 +47,6 @@ public class DataTable {
                     row.add(database.rs.getString(i));
                 }
                 data.get().add(row);
-                System.out.println("Row [1] added "+row );
             }
 
             //FINALLY ADDED TO TableView
@@ -60,5 +56,10 @@ public class DataTable {
             e.printStackTrace();
             System.out.println("Error on Building Data");
         }
+    }
+
+    public void clear(TableView tableView){
+        tableView.getColumns().clear();
+        tableView.getItems().clear();
     }
 }

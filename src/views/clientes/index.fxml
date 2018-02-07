@@ -18,12 +18,14 @@
             <Font name="Ubuntu" size="24.0" />
          </font>
       </Label>
-      <JFXTextField fx:id="buscaTextField" layoutX="710.0" layoutY="99.0" maxWidth="291.0" minWidth="266.0" prefHeight="35.0" prefWidth="291.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="99.0" />
-      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="964.0" layoutY="99.0" opacity="0.71" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="29.0" AnchorPane.topAnchor="99.0">
+      <JFXTextField fx:id="buscaTextField" layoutX="708.0" layoutY="143.0" maxWidth="291.0" minWidth="266.0" prefHeight="35.0" prefWidth="291.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="143.0" />
+      <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="965.0" layoutY="143.0" opacity="0.71" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="143.0">
          <image>
             <Image url="@../../icons/icons8-search-24.png" />
          </image>
       </ImageView>
-      <TableView fx:id="tableClientes" layoutX="14.0" layoutY="158.0" prefHeight="590.0" prefWidth="987.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="158.0" />
+      <TableView fx:id="tableClientes" layoutX="14.0" layoutY="183.0" prefHeight="565.0" prefWidth="987.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="183.0" />
+      <JFXButton fx:id="addClientRegisterButton" buttonType="RAISED" layoutX="20.0" layoutY="146.0" prefHeight="29.0" prefWidth="86.0" ripplerFill="#0ecc1d" style="-fx-background-color: #4059a9;" text="Novo" textFill="WHITE" />
+      <JFXButton fx:id="openClientRegisterButton" buttonType="RAISED" disable="true" layoutX="121.0" layoutY="146.0" prefHeight="29.0" prefWidth="111.0" ripplerFill="#0ecc1d" style="-fx-background-color: #4059a9;" text="Abir Cadastro" textFill="WHITE" />
    </children>
 </AnchorPane>

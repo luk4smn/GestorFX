@@ -7,6 +7,10 @@ import database.Database;
 import javafx.animation.PauseTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyCodeCombination;
+import javafx.scene.input.KeyCombination;
+import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 import managers.Home;
@@ -32,7 +36,26 @@ public class LoginController implements Initializable{
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         loggingProgress.setVisible(false);
+
+        textFiledUser.setOnKeyPressed(k ->{
+            final KeyCombination ENTER = new KeyCodeCombination(KeyCode.ENTER);
+            if (ENTER.match(k)) {
+                passwordFieldUser.requestFocus();
+            }
+        });
+
+        passwordFieldUser.setOnKeyPressed((KeyEvent k) ->{
+            final KeyCombination ENTER = new KeyCodeCombination(KeyCode.ENTER);
+            if (ENTER.match(k)) try {
+                this.handleLoginButton();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+
     }
+
+
 
     @FXML
     public void handleLoginButton() throws Exception {
