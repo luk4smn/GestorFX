@@ -5,6 +5,6 @@ public class ClientesDataTableColumns {
     private String[] colunas;
 
     public String[] columns(){
-        return colunas = new String[]{"COD.", "Cliente", "CNPJ", "CPF"};
+        return colunas = new String[]{"#", "Cliente", "CNPJ", "CPF"};
     }
 }

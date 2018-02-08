@@ -7,6 +7,15 @@ and open the template in the editor.
     Created on : Feb 21, 2017, 8:07:48 PM
     Author     : Dan Mlayah
 */
+
+.dashpane {
+	-fx-background-color: linear-gradient(from 0% 0% to 100%
+	100%, blue 0%, gray 100%);
+}
+.rb {
+-fx-text-fill: white;
+ }
+
 .root{}
 
 .nav-button:hover{

@@ -55,8 +55,6 @@ public class LoginController implements Initializable{
 
     }
 
-
-
     @FXML
     public void handleLoginButton() throws Exception {
         String user = textFiledUser.getText();

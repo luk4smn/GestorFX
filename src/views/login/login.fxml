@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.*?>
-<?import java.lang.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXSpinner?>
@@ -16,14 +10,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="progress" prefHeight="454.0" prefWidth="869.0" style="-fx-background-color: #0f0f1f;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+<AnchorPane id="progress" prefHeight="448.0" prefWidth="869.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100%100%,  #0f0f1f 0%,  #3b6bf9 100%);" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
    <children>
-      <ImageView fitHeight="585.0" fitWidth="507.0" opacity="0.36" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="449.0" fitWidth="512.0" opacity="0.22" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../icons/backgroud.jpg" />
+            <Image url="@../../icons/background2.png" />
          </image>
       </ImageView>
-      <AnchorPane layoutX="540.0" layoutY="27.0" prefHeight="399.0" prefWidth="303.0" style="-fx-background-color: #3b6bf9;">
+      <AnchorPane layoutX="540.0" layoutY="27.0" prefHeight="399.0" prefWidth="303.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100%100%,  #0f0f1f 0%,  #3b6bf9 100%);">
          <children>
             <JFXTextField id="user" fx:id="textFiledUser" focusColor="#3ab53e" layoutX="56.0" layoutY="177.0" maxWidth="265.0" minWidth="216.0" prefHeight="35.0" prefWidth="224.0" promptText="Usuário" style="-fx-text-fill: white;" unFocusColor="#c9c4c4" />
             <JFXPasswordField id="password" fx:id="passwordFieldUser" focusColor="#3ab53e" layoutX="56.0" layoutY="245.0" maxWidth="265.0" minWidth="205.0" prefHeight="35.0" prefWidth="224.0" promptText="Senha" style="-fx-text-fill: white;" unFocusColor="#c9c4c4" />
@@ -56,7 +50,10 @@
             <Font size="45.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" focusTraversable="false" layoutX="18.0" layoutY="259.0" text="Sistema de Gestao Elaborado para suprir as necessiadades da sua empresa" textFill="#eeebeb" />
+      <Label alignment="CENTER" focusTraversable="false" layoutX="18.0" layoutY="259.0" text="Sistema de Gestao Elaborado para suprir as necessiadades da sua empresa" textFill="#eeebeb">
+         <font>
+            <Font name="Ubuntu" size="14.0" />
+         </font></Label>
       <JFXButton fx:id="closeButton" buttonType="RAISED" layoutX="843.0" layoutY="2.0" onMouseClicked="#close" prefHeight="23.0" prefWidth="23.0" text="X" textFill="WHITE">
          <font>
             <Font name="System Bold" size="11.0" />

@@ -6,7 +6,9 @@ public class ClientesDataTableCriteria {
     private String search;
 
     public String getQuery(String slug, String search){
-        return slug.equals("index") ? (query = "SELECT id, nome, cnpj, cpf FROM clientes") :
+        return slug.equals("index") ? (query = "SELECT id, nome, cnpj, cpf FROM clientes "
+                        + "order by id"
+                ) :
                slug.equals("filter") ? (query = "SELECT id, nome, cnpj, cpf from clientes "
 //                       + "inner join cidades on clientes.cidade_id = cidades.id "
 //                       + "inner join estados on cidades.estado_id = estados.id "
@@ -14,6 +16,7 @@ public class ClientesDataTableCriteria {
                        + "or nome ::text like '%" + search + "%' "
                        + "or cpf ::text like '%" + search + "%' "
                        + "or cnpj ::text like '%" + search + "%' "
+                       + "order by id"
                ) : null;
     }
 }

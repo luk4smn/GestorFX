@@ -12,10 +12,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.layout.AnchorPane;
 import javafx.util.Duration;
-import database.Database;
 import javafx.scene.control.Label;
 import models.Login;
 
@@ -88,5 +86,7 @@ public class HomeController implements Initializable {
     private void showClientes(ActionEvent event) {
         setNode(clientes);
     }
+
+    
 
 }
