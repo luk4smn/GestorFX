@@ -121,4 +121,9 @@ public class ClienteController implements Initializable {
         );
     }
 
+    public void closeWindow(){
+//        Window telaDeLogin = textFiledUser.getScene().getWindow();
+//        telaDeLogin.hide();
+    }
+
 }

@@ -61,12 +61,12 @@ public class HomeController implements Initializable {
 
     private void setNode(Node node) {
         reciveScreenPane.getChildren().clear();
-        reciveScreenPane.getChildren().add((Node) node);
+        reciveScreenPane.getChildren().add(node);
 
-        reciveScreenPane.setBottomAnchor(node,0.0);
-        reciveScreenPane.setTopAnchor(node,0.0);
-        reciveScreenPane.setLeftAnchor(node,0.0);
-        reciveScreenPane.setRightAnchor(node,0.0);
+        AnchorPane.setBottomAnchor(node,0.0);
+        AnchorPane.setTopAnchor(node,0.0);
+        AnchorPane.setLeftAnchor(node,0.0);
+        AnchorPane.setRightAnchor(node,0.0);
 
         FadeTransition ft = new FadeTransition(Duration.millis(1500));
         ft.setNode(node);
@@ -86,7 +86,6 @@ public class HomeController implements Initializable {
     private void showClientes(ActionEvent event) {
         setNode(clientes);
     }
-
     
 
 }
