@@ -2,6 +2,7 @@ package controllers;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
+import com.jfoenix.controls.JFXToggleButton;
 import datatables.DataTable;
 import datatables.clientes.columns.ClientesDataTableColumns;
 import datatables.clientes.criterias.ClientesDataTableCriteria;
@@ -13,15 +14,14 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.effect.GaussianBlur;
 import javafx.scene.image.Image;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyCodeCombination;
-import javafx.scene.input.KeyCombination;
-import javafx.scene.input.KeyEvent;
+import javafx.scene.input.*;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import javafx.stage.Window;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -33,11 +33,11 @@ public class ClienteController implements Initializable {
     @FXML
     private TableView tableClientes;
     @FXML
-    private JFXButton addClientRegisterButton;
-    @FXML
-    private JFXButton openClientRegisterButton;
-    @FXML
     private AnchorPane formScreenPane;
+    @FXML
+    private JFXButton addClientRegisterButton, openClientRegisterButton;
+    @FXML
+    private JFXToggleButton pessoaFisicaToggleButton, pessoaJuridicaToggleButton;
 
     private static String status = "FilterClients";
 
@@ -78,22 +78,23 @@ public class ClienteController implements Initializable {
         Parent parent = formScreenPane;
 
         GaussianBlur blur = new GaussianBlur(30);
-        final Parent consultaDeCliente = buscaTextField.getScene().getRoot();
+        Parent consultaDeCliente = buscaTextField.getScene().getRoot();
         consultaDeCliente.setEffect(blur);
 
         Scene scene = new Scene(parent);
         scene.setFill(new Color(0, 0, 0, 0));
-        Stage novoStage = new Stage();
+        Stage crudClientStage = new Stage();
 
-        novoStage.setScene(scene);
-        novoStage.initModality(Modality.APPLICATION_MODAL);
-        novoStage.initStyle(StageStyle.TRANSPARENT);
-        novoStage.getIcons().add(new Image("/icons/icone.png"));
-        novoStage.show();
+        crudClientStage.setScene(scene);
+        crudClientStage.initModality(Modality.APPLICATION_MODAL);
+        crudClientStage.initStyle(StageStyle.TRANSPARENT);
+        crudClientStage.getIcons().add(new Image("/icons/icone.png"));
+        crudClientStage.show();
 
-        novoStage.setOnCloseRequest(event ->
+        crudClientStage.setOnCloseRequest(event ->
                 consultaDeCliente.setEffect(null)
         );
+
     }
 
     public void openClient() throws IOException{
@@ -103,27 +104,36 @@ public class ClienteController implements Initializable {
         Parent parent = formScreenPane;
 
         GaussianBlur blur = new GaussianBlur(30);
-        final Parent consultaDeCliente = buscaTextField.getScene().getRoot();
+        Parent consultaDeCliente = buscaTextField.getScene().getRoot();
         consultaDeCliente.setEffect(blur);
 
         Scene scene = new Scene(parent);
         scene.setFill(new Color(0, 0, 0, 0));
-        Stage novoStage = new Stage();
+        Stage crudClientsStage = new Stage();
 
-        novoStage.setScene(scene);
-        novoStage.initModality(Modality.APPLICATION_MODAL);
-        novoStage.initStyle(StageStyle.TRANSPARENT);
-        novoStage.getIcons().add(new Image("/icons/icone.png"));
-        novoStage.show();
+        crudClientsStage.setScene(scene);
+        crudClientsStage.initModality(Modality.APPLICATION_MODAL);
+        crudClientsStage.initStyle(StageStyle.TRANSPARENT);
+        crudClientsStage.getIcons().add(new Image("/icons/icone.png"));
+        crudClientsStage.show();
 
-        novoStage.setOnCloseRequest(event ->
+        crudClientsStage.setOnCloseRequest(event ->
                 consultaDeCliente.setEffect(null)
         );
     }
 
     public void closeWindow(){
-//        Window telaDeLogin = textFiledUser.getScene().getWindow();
-//        telaDeLogin.hide();
+        Stage crudClientes = (Stage) pessoaFisicaToggleButton.getScene().getWindow();
+        crudClientes.close();
+    }
+
+    public void changePersonType(){
+        if (pessoaFisicaToggleButton.isSelected()) {
+            pessoaJuridicaToggleButton.setSelected(false);
+        }
+        else{
+            pessoaJuridicaToggleButton.setSelected(true);
+        }
     }
 
 }
