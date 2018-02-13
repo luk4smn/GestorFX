@@ -16,14 +16,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="progress" prefHeight="448.0" prefWidth="869.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100%100%,  #0f0f1f 0%,  #3b6bf9 100%);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+<AnchorPane id="progress" prefHeight="448.0" prefWidth="869.0" style="-fx-background-color: #0e0f1e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
    <children>
       <ImageView fitHeight="449.0" fitWidth="512.0" opacity="0.22" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../icons/background2.png" />
          </image>
       </ImageView>
-      <AnchorPane layoutX="540.0" layoutY="27.0" prefHeight="399.0" prefWidth="303.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100%100%,  #0f0f1f 0%,  #3b6bf9 100%);">
+      <AnchorPane layoutX="540.0" layoutY="27.0" prefHeight="392.0" prefWidth="303.0" style="-fx-background-color: #26589b;">
          <children>
             <JFXTextField id="user" fx:id="textFiledUser" focusColor="#3ab53e" layoutX="56.0" layoutY="177.0" maxWidth="265.0" minWidth="216.0" prefHeight="35.0" prefWidth="224.0" promptText="Usuário" style="-fx-text-fill: white;" unFocusColor="#c9c4c4" />
             <JFXPasswordField id="password" fx:id="passwordFieldUser" focusColor="#3ab53e" layoutX="56.0" layoutY="245.0" maxWidth="265.0" minWidth="205.0" prefHeight="35.0" prefWidth="224.0" promptText="Senha" style="-fx-text-fill: white;" unFocusColor="#c9c4c4" />
@@ -48,7 +48,7 @@
                </font>
             </Label>
             <JFXSpinner fx:id="loggingProgress" layoutX="138.0" layoutY="342.0" />
-            <JFXButton layoutX="16.0" layoutY="303.0" onAction="#handleLoginButton" prefHeight="28.0" prefWidth="275.0" ripplerFill="#3ab53e" style="-fx-background-color: #21377a;" text="Login" textFill="WHITE" />
+            <JFXButton fx:id="loginButton" layoutX="16.0" layoutY="303.0" onAction="#handleLoginButton" prefHeight="28.0" prefWidth="275.0" ripplerFill="#22c61c" style="-fx-background-color: #50a6e0;" text="Login" textFill="WHITE" />
          </children>
       </AnchorPane>
       <Label alignment="CENTER" focusTraversable="false" layoutX="15.0" layoutY="195.0" opacity="0.94" prefHeight="63.0" prefWidth="479.0" text="Bem vindo ao Sentinel" textAlignment="CENTER" textFill="WHITE">

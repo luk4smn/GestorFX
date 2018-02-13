@@ -1,5 +1,6 @@
 package controllers;
 
+import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXSpinner;
 import com.jfoenix.controls.JFXTextField;
@@ -32,6 +33,8 @@ public class LoginController implements Initializable{
     private JFXPasswordField passwordFieldUser;
     @FXML
     private JFXSpinner loggingProgress;
+    @FXML
+    private JFXButton loginButton;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -64,6 +67,8 @@ public class LoginController implements Initializable{
         model_login.login(user,passoword,database);
 
         if (model_login.getAuthUser() != null) {
+
+            loginButton.setDisable(true);
 
             loggingProgress.setVisible(true);
 

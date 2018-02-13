@@ -20,8 +20,6 @@ import javafx.scene.paint.Color;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import javafx.stage.Window;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -41,6 +39,7 @@ public class ClienteController implements Initializable {
 
     private static String status = "FilterClients";
 
+    static Parent consultaDeCliente;
     DataTable table = new DataTable();
     ClientesDataTableCriteria query = new ClientesDataTableCriteria();
     ClientesDataTableColumns columns = new ClientesDataTableColumns();
@@ -78,7 +77,7 @@ public class ClienteController implements Initializable {
         Parent parent = formScreenPane;
 
         GaussianBlur blur = new GaussianBlur(30);
-        Parent consultaDeCliente = buscaTextField.getScene().getRoot();
+        consultaDeCliente = buscaTextField.getScene().getRoot();
         consultaDeCliente.setEffect(blur);
 
         Scene scene = new Scene(parent);
@@ -125,6 +124,8 @@ public class ClienteController implements Initializable {
     public void closeWindow(){
         Stage crudClientes = (Stage) pessoaFisicaToggleButton.getScene().getWindow();
         crudClientes.close();
+
+        consultaDeCliente.setEffect(null);
     }
 
     public void changePersonType(){
