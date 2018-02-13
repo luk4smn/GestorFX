@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
@@ -10,18 +17,13 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #27449b;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #27449b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
    <children>
-      <AnchorPane layoutX="-3.0" layoutY="-4.0" prefHeight="756.0" prefWidth="188.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100%100%,  #3b6bf9 0%, #0f0f1f 100%);" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="-3.0" AnchorPane.topAnchor="-4.0">
+      <AnchorPane layoutX="-3.0" layoutY="-4.0" prefHeight="756.0" prefWidth="188.0" style="-fx-background-color: #2C2E3E;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="-3.0" AnchorPane.topAnchor="-4.0">
          <children>
-            <Label fx:id="userLabel" alignment="CENTER" layoutX="5.0" layoutY="98.0" prefHeight="20.0" prefWidth="179.0" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton fx:id="homeButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="7.0" layoutY="127.0" onAction="#showHome" prefHeight="28.0" prefWidth="179.0" text="    Principal" textFill="#737691">
                <font>
-                  <Font size="10.0" />
-               </font></Label>
-            <Separator layoutX="14.0" layoutY="119.0" prefHeight="20.0" prefWidth="159.0" />
-            <JFXButton fx:id="homeButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="137.0" onAction="#showHome" prefHeight="28.0" prefWidth="179.0" text="    Principal" textFill="WHITE">
-               <font>
-                  <Font name="Ubuntu" size="14.0" />
+                  <Font name="FontAwesome Regular" size="14.0" />
                </font>
                <graphic>
                   <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
@@ -34,9 +36,9 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="clientButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="181.0" onAction="#showClientes" prefHeight="28.0" prefWidth="179.0" text="    Clientes" textFill="WHITE">
+            <JFXButton fx:id="clientButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="7.0" layoutY="171.0" onAction="#showClientes" prefHeight="28.0" prefWidth="179.0" text="    Clientes" textFill="#737691">
                <font>
-                  <Font name="Ubuntu" size="14.0" />
+                  <Font name="FontAwesome Regular" size="14.0" />
                </font>
                <graphic>
                   <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
@@ -49,9 +51,9 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="providerButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="222.0" prefHeight="28.0" prefWidth="179.0" text="    Fornecedores" textFill="WHITE">
+            <JFXButton fx:id="providerButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="7.0" layoutY="212.0" prefHeight="28.0" prefWidth="179.0" text="    Fornecedores" textFill="#737691">
                <font>
-                  <Font name="Ubuntu" size="14.0" />
+                  <Font name="FontAwesome Regular" size="14.0" />
                </font>
                <graphic>
                   <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
@@ -64,9 +66,9 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="teamButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="264.0" prefHeight="28.0" prefWidth="179.0" text="    Funcionários" textFill="WHITE">
+            <JFXButton fx:id="teamButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="7.0" layoutY="254.0" prefHeight="28.0" prefWidth="179.0" text="    Funcionários" textFill="#737691">
                <font>
-                  <Font name="Ubuntu" size="14.0" />
+                  <Font name="FontAwesome Regular" size="14.0" />
                </font>
                <graphic>
                   <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
@@ -79,9 +81,9 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="productButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="306.0" prefHeight="28.0" prefWidth="179.0" text="    Produtos" textFill="WHITE">
+            <JFXButton fx:id="productButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="7.0" layoutY="296.0" prefHeight="28.0" prefWidth="179.0" text="    Produtos" textFill="#737691">
                <font>
-                  <Font name="Ubuntu" size="14.0" />
+                  <Font name="FontAwesome Regular" size="14.0" />
                </font>
                <graphic>
                   <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
@@ -94,9 +96,9 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="paymentButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="347.0" prefHeight="28.0" prefWidth="179.0" text="    Contas a Pagar" textFill="WHITE">
+            <JFXButton fx:id="paymentButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="7.0" layoutY="337.0" prefHeight="28.0" prefWidth="179.0" text="    Contas a Pagar" textFill="#737691">
                <font>
-                  <Font name="Ubuntu" size="14.0" />
+                  <Font name="FontAwesome Regular" size="14.0" />
                </font>
                <graphic>
                   <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
@@ -109,9 +111,9 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="reciveButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="388.0" prefHeight="28.0" prefWidth="179.0" text="    Contas a Receber" textFill="WHITE">
+            <JFXButton fx:id="reciveButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="7.0" layoutY="378.0" prefHeight="28.0" prefWidth="179.0" text="    Contas a Receber" textFill="#737691">
                <font>
-                  <Font name="Ubuntu" size="14.0" />
+                  <Font name="FontAwesome Regular" size="14.0" />
                </font>
                <graphic>
                   <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
@@ -124,9 +126,9 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <JFXButton fx:id="reportButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="5.0" layoutY="434.0" prefHeight="28.0" prefWidth="179.0" text="    Relatórios" textFill="WHITE">
+            <JFXButton fx:id="reportButton" alignment="BASELINE_LEFT" buttonType="RAISED" layoutX="7.0" layoutY="424.0" prefHeight="28.0" prefWidth="179.0" text="    Relatórios" textFill="#737691">
                <font>
-                  <Font name="Ubuntu" size="14.0" />
+                  <Font name="FontAwesome Regular" size="14.0" />
                </font>
                <graphic>
                   <ImageView fitHeight="21.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
@@ -139,16 +141,22 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <ImageView fitHeight="58.0" fitWidth="48.0" layoutX="71.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../icons/icons8-male-user-filled-50.png" />
-               </image>
-               <effect>
-                  <Glow />
-               </effect>
-            </ImageView>
+            <Pane layoutY="1.0" prefHeight="94.0" prefWidth="193.0" style="-fx-background-color: #282A3C;">
+               <children>
+                  <Label fx:id="userLabel" alignment="CENTER" layoutX="8.0" layoutY="63.0" prefHeight="20.0" prefWidth="179.0" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="58.0" fitWidth="48.0" layoutX="74.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../icons/icons8-male-user-filled-50.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="reciveScreenPane" layoutX="185.0" layoutY="-3.0" prefHeight="756.0" prefWidth="1015.0" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="185.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-3.0" />
+      <AnchorPane fx:id="reciveScreenPane" layoutX="185.0" layoutY="-3.0" prefHeight="756.0" prefWidth="1015.0" style="-fx-background-color: #F2F3F8;" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="185.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-3.0" />
    </children>
 </AnchorPane>

@@ -10,9 +10,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="formScreenPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="705.0" prefWidth="885.0" style="-fx-border-color: #3b6bf9; -fx-border-radius: 3; -fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ClienteController">
+<AnchorPane fx:id="formScreenPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="705.0" prefWidth="885.0" style="-fx-border-color: #A42C43; -fx-border-radius: 3; -fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ClienteController">
    <children>
-      <JFXToolbar layoutX="1.0" layoutY="-1.0" prefHeight="71.0" prefWidth="891.0" style="-fx-background-color: #3b6bf9;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-2.0">
+      <JFXToolbar layoutX="3.0" layoutY="2.0" prefHeight="70.0" prefWidth="881.0" style="-fx-background-color: white;" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="1.0">
          <left>
             <ImageView fitHeight="63.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
                <image>
@@ -21,35 +21,35 @@
             </ImageView>
          </left>
       </JFXToolbar>
-      <Label layoutX="115.0" layoutY="15.0" prefHeight="31.0" prefWidth="342.0" text="Cadastro de Clientes" textFill="WHITE">
+      <Label layoutX="115.0" layoutY="15.0" prefHeight="31.0" prefWidth="342.0" text="Cadastro de Clientes">
          <font>
             <Font name="FontAwesome Regular" size="24.0" />
          </font>
       </Label>
-      <Pane layoutX="105.0" layoutY="46.0" prefHeight="3.0" prefWidth="415.0" style="-fx-background-color: white;" />
-      <JFXButton layoutX="848.0" layoutY="4.0" onAction="#closeWindow" prefHeight="20.0" prefWidth="30.0" ripplerFill="#da1111" text="X" textFill="WHITE">
+      <Pane layoutX="105.0" layoutY="46.0" prefHeight="3.0" prefWidth="415.0" style="-fx-background-color: #A42C43;" />
+      <JFXButton layoutX="848.0" layoutY="4.0" onAction="#closeWindow" prefHeight="20.0" prefWidth="30.0" ripplerFill="WHITE" style="-fx-background-color: #da1111;" text="X" textFill="WHITE">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </JFXButton>
-      <JFXTextField layoutX="40.0" layoutY="269.0" maxWidth="360.0" minWidth="205.0" prefHeight="35.0" prefWidth="360.0" promptText="Nome" />
-      <JFXTextField layoutX="411.0" layoutY="269.0" maxWidth="360.0" minWidth="186.0" prefHeight="35.0" prefWidth="186.0" promptText="CPF" />
-      <JFXTextField layoutX="621.0" layoutY="269.0" maxWidth="360.0" minWidth="186.0" prefHeight="35.0" prefWidth="186.0" promptText="RG" />
-      <JFXTextField layoutX="621.0" layoutY="227.0" maxWidth="360.0" minWidth="186.0" prefHeight="35.0" prefWidth="186.0" promptText="Inscrição Estadual" />
-      <JFXTextField layoutX="411.0" layoutY="227.0" maxWidth="360.0" minWidth="179.0" prefHeight="35.0" prefWidth="186.0" promptText="CNPJ" />
-      <JFXTextField layoutX="42.0" layoutY="184.0" maxWidth="582.0" minWidth="205.0" prefHeight="35.0" prefWidth="559.0" promptText="Razão Social" />
+      <JFXTextField focusColor="#a42c43" layoutX="40.0" layoutY="269.0" maxWidth="360.0" minWidth="205.0" prefHeight="35.0" prefWidth="360.0" promptText="Nome" />
+      <JFXTextField focusColor="#a42c43" layoutX="411.0" layoutY="269.0" maxWidth="360.0" minWidth="186.0" prefHeight="35.0" prefWidth="186.0" promptText="CPF" />
+      <JFXTextField focusColor="#a42c43" layoutX="621.0" layoutY="269.0" maxWidth="360.0" minWidth="186.0" prefHeight="35.0" prefWidth="186.0" promptText="RG" />
+      <JFXTextField focusColor="#a42c43" layoutX="621.0" layoutY="227.0" maxWidth="360.0" minWidth="186.0" prefHeight="35.0" prefWidth="186.0" promptText="Inscrição Estadual" />
+      <JFXTextField focusColor="#a42c43" layoutX="411.0" layoutY="227.0" maxWidth="360.0" minWidth="179.0" prefHeight="35.0" prefWidth="186.0" promptText="CNPJ" />
+      <JFXTextField focusColor="#a42c43" layoutX="42.0" layoutY="184.0" maxWidth="582.0" minWidth="205.0" prefHeight="35.0" prefWidth="559.0" promptText="Razão Social" />
       <Label layoutX="46.0" layoutY="97.0" prefHeight="19.0" prefWidth="111.0" text="Tipo de Pessoa :" textFill="#3b3d43" AnchorPane.leftAnchor="46.0" AnchorPane.rightAnchor="730.0" AnchorPane.topAnchor="97.0">
          <font>
             <Font name="FontAwesome Regular" size="13.0" />
          </font></Label>
-      <JFXTextField layoutX="40.0" layoutY="227.0" maxWidth="360.0" minWidth="205.0" prefHeight="35.0" prefWidth="360.0" promptText="Nome Fantasia" />
-      <JFXTextField layoutX="40.0" layoutY="315.0" maxWidth="360.0" minWidth="205.0" prefHeight="35.0" prefWidth="360.0" promptText="Endereço" />
-      <JFXTextField layoutX="411.0" layoutY="315.0" maxWidth="360.0" minWidth="79.0" prefHeight="35.0" prefWidth="79.0" promptText="Nº" />
-      <JFXTextField layoutX="484.0" layoutY="315.0" maxWidth="360.0" minWidth="91.0" prefHeight="35.0" prefWidth="111.0" promptText="CEP" />
-      <JFXTextField layoutX="621.0" layoutY="315.0" maxWidth="360.0" minWidth="186.0" prefHeight="35.0" prefWidth="186.0" promptText="Bairro" />
+      <JFXTextField focusColor="#a42c43" layoutX="40.0" layoutY="227.0" maxWidth="360.0" minWidth="205.0" prefHeight="35.0" prefWidth="360.0" promptText="Nome Fantasia" />
+      <JFXTextField focusColor="#a42c43" layoutX="40.0" layoutY="315.0" maxWidth="360.0" minWidth="205.0" prefHeight="35.0" prefWidth="360.0" promptText="Endereço" />
+      <JFXTextField focusColor="#a42c43" layoutX="411.0" layoutY="315.0" maxWidth="360.0" minWidth="79.0" prefHeight="35.0" prefWidth="79.0" promptText="Nº" />
+      <JFXTextField focusColor="#a42c43" layoutX="484.0" layoutY="315.0" maxWidth="360.0" minWidth="91.0" prefHeight="35.0" prefWidth="111.0" promptText="CEP" />
+      <JFXTextField focusColor="#a42c43" layoutX="621.0" layoutY="315.0" maxWidth="360.0" minWidth="186.0" prefHeight="35.0" prefWidth="186.0" promptText="Bairro" />
       <JFXComboBox layoutX="46.0" layoutY="359.0" prefHeight="29.0" prefWidth="288.0" promptText="Cidade" />
       <JFXTextField disable="true" editable="false" layoutX="339.0" layoutY="359.0" maxWidth="157.0" minWidth="55.0" prefHeight="35.0" prefWidth="55.0" text="UF" />
-      <JFXButton layoutX="42.0" layoutY="640.0" prefHeight="28.0" prefWidth="111.0" ripplerFill="WHITE" style="-fx-background-color: #3b6bf9;" text="Salvar" textFill="WHITE">
+      <JFXButton layoutX="42.0" layoutY="640.0" prefHeight="28.0" prefWidth="111.0" ripplerFill="WHITE" style="-fx-background-color: #A42C43;" text="Salvar" textFill="WHITE">
          <graphic>
             <ImageView fitHeight="23.0" fitWidth="42.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -58,9 +58,9 @@
             </ImageView>
          </graphic>
       </JFXButton>
-      <JFXToggleButton fx:id="pessoaFisicaToggleButton" layoutX="22.0" layoutY="115.0" onAction="#changePersonType" prefHeight="58.0" prefWidth="111.0" text="Física" textFill="#3b3d43" toggleColor="#00378f" toggleLineColor="#7885c2" />
-      <JFXToggleButton fx:id="pessoaJuridicaToggleButton" layoutX="133.0" layoutY="115.0" onAction="#changePersonType" prefHeight="58.0" prefWidth="127.0" text="Jurídica" textFill="#3b3d43" toggleColor="#00378f" toggleLineColor="#7885c2" />
-      <JFXButton layoutX="165.0" layoutY="640.0" prefHeight="28.0" prefWidth="111.0" ripplerFill="WHITE" style="-fx-background-color: #3b6bf9;" text="Excluir" textFill="WHITE">
+      <JFXToggleButton fx:id="pessoaFisicaToggleButton" layoutX="22.0" layoutY="115.0" onAction="#changePersonType" prefHeight="58.0" prefWidth="111.0" text="Física" textFill="#3b3d43" toggleColor="#a42c43" toggleLineColor="#c28a78" />
+      <JFXToggleButton fx:id="pessoaJuridicaToggleButton" layoutX="133.0" layoutY="115.0" onAction="#changePersonType" prefHeight="58.0" prefWidth="127.0" text="Jurídica" textFill="#3b3d43" toggleColor="#a42c43" toggleLineColor="#c28a78" />
+      <JFXButton layoutX="165.0" layoutY="640.0" prefHeight="28.0" prefWidth="111.0" ripplerFill="WHITE" style="-fx-background-color: #A42C43;" text="Excluir" textFill="WHITE">
          <graphic>
             <ImageView fitHeight="23.0" fitWidth="42.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -69,11 +69,11 @@
             </ImageView>
          </graphic>
       </JFXButton>
-      <JFXTextField layoutX="40.0" layoutY="461.0" maxWidth="360.0" minWidth="205.0" prefHeight="35.0" prefWidth="360.0" promptText="E-mail" />
-      <JFXTextField layoutX="41.0" layoutY="418.0" maxWidth="360.0" minWidth="176.0" prefHeight="35.0" prefWidth="176.0" promptText="Telefone 1" />
-      <JFXTextField layoutX="227.0" layoutY="418.0" maxWidth="360.0" minWidth="170.0" prefHeight="35.0" prefWidth="176.0" promptText="Telefone 2" />
-      <JFXTextField layoutX="621.0" layoutY="418.0" maxWidth="360.0" minWidth="176.0" prefHeight="35.0" prefWidth="176.0" promptText="Telefone 4" />
-      <JFXTextField layoutX="421.0" layoutY="418.0" maxWidth="360.0" minWidth="176.0" prefHeight="35.0" prefWidth="176.0" promptText="Telefone 3" />
-      <JFXTextArea layoutX="46.0" layoutY="508.0" maxWidth="745.0" minWidth="331.0" prefHeight="104.0" prefWidth="745.0" promptText="Observações" />
+      <JFXTextField focusColor="#a42c43" layoutX="40.0" layoutY="461.0" maxWidth="360.0" minWidth="205.0" prefHeight="35.0" prefWidth="360.0" promptText="E-mail" />
+      <JFXTextField focusColor="#a42c43" layoutX="41.0" layoutY="418.0" maxWidth="360.0" minWidth="176.0" prefHeight="35.0" prefWidth="176.0" promptText="Telefone 1" />
+      <JFXTextField focusColor="#a42c43" layoutX="227.0" layoutY="418.0" maxWidth="360.0" minWidth="170.0" prefHeight="35.0" prefWidth="176.0" promptText="Telefone 2" />
+      <JFXTextField focusColor="#a42c43" layoutX="621.0" layoutY="418.0" maxWidth="360.0" minWidth="176.0" prefHeight="35.0" prefWidth="176.0" promptText="Telefone 4" />
+      <JFXTextField focusColor="#a42c43" layoutX="421.0" layoutY="418.0" maxWidth="360.0" minWidth="176.0" prefHeight="35.0" prefWidth="176.0" promptText="Telefone 3" />
+      <JFXTextArea focusColor="#a42c43" layoutX="46.0" layoutY="508.0" maxWidth="745.0" minWidth="331.0" prefHeight="104.0" prefWidth="745.0" promptText="Observações" />
    </children>
 </AnchorPane>

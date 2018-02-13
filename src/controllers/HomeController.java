@@ -3,6 +3,8 @@ package controllers;
 import com.jfoenix.controls.JFXButton;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -22,28 +24,14 @@ public class HomeController implements Initializable {
     Login user = new Login();
 
     @FXML
+    private Label userLabel;
+    @FXML
     private AnchorPane reciveScreenPane;
     @FXML
-    private JFXButton reportButton;
-    @FXML
-    private JFXButton reciveButton;
-    @FXML
-    private JFXButton paymentButton;
-    @FXML
-    private JFXButton productButton;
-    @FXML
-    private JFXButton teamButton;
-    @FXML
-    private JFXButton providerButton;
-    @FXML
-    private JFXButton clientButton;
-    @FXML
-    private JFXButton homeButton;
-    @FXML
-    private Label userLabel;
+    private JFXButton homeButton, clientButton, providerButton, teamButton, productButton,
+            paymentButton, reciveButton, reportButton;
 
     AnchorPane clientes, home;
-
 
     public void initialize(URL url, ResourceBundle rb) {
         userLabel.setText(user.getAuthUser());
@@ -53,6 +41,7 @@ public class HomeController implements Initializable {
             clientes = FXMLLoader.load(getClass().getResource("/views/clientes/index.fxml"));
 
             setNode(home);
+            homeButton.setStyle("-fx-text-fill: #A42C43;");
 
         } catch (IOException ex) {
             Logger.getLogger(HomeController.class.getName()).log(Level.SEVERE, null, ex);
@@ -77,15 +66,39 @@ public class HomeController implements Initializable {
         ft.play();
     }
 
+
+    private void changeButtonColor(JFXButton button, ArrayList outrosBotoes){
+        button.setStyle("-fx-text-fill: #A42C43;");
+
+        outrosBotoes.forEach(item->{
+            JFXButton button1 = (JFXButton) item;
+            button1.setStyle("-fx-text-fill: #737691;");
+        });
+    }
+
     @FXML
     private void showHome(ActionEvent event) {
         setNode(home);
+
+        ArrayList outrosBotoes = new ArrayList();
+        outrosBotoes.addAll(Arrays.asList(clientButton, providerButton, teamButton,
+                productButton, paymentButton, reciveButton, reportButton)
+        );
+
+        this.changeButtonColor(homeButton,outrosBotoes);
     }
 
     @FXML
     private void showClientes(ActionEvent event) {
         setNode(clientes);
+
+        ArrayList outrosBotoes = new ArrayList();
+        outrosBotoes.addAll(Arrays.asList(homeButton, providerButton, teamButton,
+                productButton, paymentButton, reciveButton, reportButton)
+        );
+
+        this.changeButtonColor(clientButton,outrosBotoes);
     }
-    
+
 
 }
