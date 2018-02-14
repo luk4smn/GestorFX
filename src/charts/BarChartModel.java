@@ -7,8 +7,8 @@ import java.util.Arrays;
 
 public class BarChartModel {
 
-    final String aReceber   = "A Receber";
-    final String Recebido   = "Recebido";
+    final String faturado   = "Faturdo";
+    final String recebido   = "recebido";
     final String aVencer    = "A Vencer";
     final String emAtraso   = "Em Atraso";
 
@@ -25,13 +25,13 @@ public class BarChartModel {
         stackedBarChar.setTitle(title);
 
         xAxis.setCategories(FXCollections.<String>observableArrayList(
-                Arrays.asList(aReceber, Recebido, aVencer, emAtraso)));
+                Arrays.asList(faturado, recebido, aVencer, emAtraso)));
 
-        series1.setName(aReceber+" "+25601.34);
-        series1.getData().add(new XYChart.Data<String, Number>(aReceber, 25601.34));
+        series1.setName(faturado +" "+25601.34);
+        series1.getData().add(new XYChart.Data<String, Number>(faturado, 25601.34));
 
-        series2.setName(Recebido+" "+57401.85);
-        series2.getData().add(new XYChart.Data<String, Number>(Recebido, 57401.85));
+        series2.setName(recebido +" "+57401.85);
+        series2.getData().add(new XYChart.Data<String, Number>(recebido, 57401.85));
 
         series3.setName(aVencer+" "+45000.65);
         series3.getData().add(new XYChart.Data<String, Number>(aVencer, 45000.65));

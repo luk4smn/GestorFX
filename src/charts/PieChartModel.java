@@ -10,9 +10,10 @@ public class PieChartModel {
     public PieChart inputDataPieChart(String title){
         ObservableList<javafx.scene.chart.PieChart.Data> pieChartData =
                 FXCollections.observableArrayList(
-                        new javafx.scene.chart.PieChart.Data("Recebido", 133.00),
+                        new javafx.scene.chart.PieChart.Data("recebido", 133.00),
                         new javafx.scene.chart.PieChart.Data("Pago", 30.23)
                 );
+
         PieChart chart = new PieChart(pieChartData);
 
         chart.setTitle(title);
