@@ -14,7 +14,7 @@ import javafx.scene.input.KeyCombination;
 import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 import javafx.stage.Window;
-import managers.Home;
+import managers.Dashboard;
 import models.Login;
 import java.net.URL;
 import javafx.util.Duration;
@@ -24,7 +24,7 @@ public class LoginController implements Initializable{
 
     Database database = new Database();
     Login model_login = new Login();
-    Home manager_home = new Home();
+    Dashboard manager_dashboard = new Dashboard();
     Stage newStage    = new Stage();
 
     @FXML
@@ -78,7 +78,7 @@ public class LoginController implements Initializable{
 
             pauseTransition.setOnFinished(ev -> {
                 try {
-                    newWindow(manager_home,newStage);
+                    newWindow(manager_dashboard,newStage);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -88,12 +88,12 @@ public class LoginController implements Initializable{
         }
     }
 
-    public void newWindow(Home manager_home, Stage newStage) throws Exception {
+    public void newWindow(Dashboard manager_dashboard, Stage newStage) throws Exception {
         try {
             Window telaDeLogin = textFiledUser.getScene().getWindow();
             telaDeLogin.hide();
 
-            manager_home.start(newStage);
+            manager_dashboard.start(newStage);
 
         } catch (Exception e) {
 

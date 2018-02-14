@@ -31,7 +31,7 @@ public class ClienteController implements Initializable {
     @FXML
     private TableView tableClientes;
     @FXML
-    private AnchorPane formScreenPane;
+    private AnchorPane formScreenPane, clientScreenPane;
     @FXML
     private JFXButton addClientRegisterButton, openClientRegisterButton;
     @FXML
@@ -67,6 +67,7 @@ public class ClienteController implements Initializable {
 
     public void searchClient(){
         this.clearDataTable();
+
         table.inputOnDataTable(tableClientes,query.getQuery("filter",buscaTextField.getText()), columns.columns());
     }
 
@@ -77,7 +78,7 @@ public class ClienteController implements Initializable {
         Parent parent = formScreenPane;
 
         GaussianBlur blur = new GaussianBlur(30);
-        consultaDeCliente = buscaTextField.getScene().getRoot();
+        consultaDeCliente = clientScreenPane.getScene().getRoot();
         consultaDeCliente.setEffect(blur);
 
         Scene scene = new Scene(parent);
@@ -122,7 +123,7 @@ public class ClienteController implements Initializable {
     }
 
     public void closeWindow(){
-        Stage crudClientes = (Stage) pessoaFisicaToggleButton.getScene().getWindow();
+        Stage crudClientes = (Stage) formScreenPane.getScene().getWindow();
         crudClientes.close();
 
         consultaDeCliente.setEffect(null);

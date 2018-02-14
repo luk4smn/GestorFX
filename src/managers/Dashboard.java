@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import models.Login;
 
-public class Home extends Application {
+public class Dashboard extends Application {
 
     @Override
     public void start(Stage stage) throws Exception{
