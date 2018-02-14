@@ -17,7 +17,8 @@
             <Font name="Ubuntu" size="24.0" />
          </font>
       </Label>
-      <AnchorPane fx:id="contasAReceberScreenPane" layoutX="38.0" layoutY="149.0" prefHeight="459.0" prefWidth="429.0" />
-      <AnchorPane fx:id="recebidoPagoScreenPane" layoutX="482.0" layoutY="149.0" prefHeight="459.0" prefWidth="429.0" />
+      <AnchorPane fx:id="contasAReceberScreenPane" layoutX="14.0" layoutY="139.0" prefHeight="459.0" prefWidth="400.0" AnchorPane.bottomAnchor="158.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="1051.0" AnchorPane.topAnchor="139.0" />
+      <AnchorPane fx:id="recebidoPagoScreenPane" layoutX="414.0" layoutY="139.0" prefHeight="450.0" prefWidth="400.0" AnchorPane.bottomAnchor="158.0" AnchorPane.leftAnchor="414.0" AnchorPane.rightAnchor="651.0" AnchorPane.topAnchor="139.0" />
+      <AnchorPane fx:id="vendasScreenPane" layoutX="814.0" layoutY="139.0" prefHeight="459.0" prefWidth="400.0" AnchorPane.bottomAnchor="158.0" AnchorPane.leftAnchor="814.0" AnchorPane.rightAnchor="251.0" AnchorPane.topAnchor="139.0" />
    </children>
 </AnchorPane>

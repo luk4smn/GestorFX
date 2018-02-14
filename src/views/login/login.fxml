@@ -27,7 +27,7 @@
          <children>
             <JFXTextField id="user" fx:id="textFiledUser" focusColor="#f42952" layoutX="56.0" layoutY="177.0" maxWidth="265.0" minWidth="216.0" prefHeight="35.0" prefWidth="224.0" promptText="Usuário" style="-fx-text-fill: white;" unFocusColor="#c9c4c4" />
             <JFXPasswordField id="password" fx:id="passwordFieldUser" focusColor="#f42952" layoutX="56.0" layoutY="245.0" maxWidth="265.0" minWidth="205.0" prefHeight="35.0" prefWidth="224.0" promptText="Senha" style="-fx-text-fill: white;" unFocusColor="#c9c4c4" />
-            <ImageView fitHeight="88.0" fitWidth="87.0" layoutX="105.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="91.0" fitWidth="83.0" layoutX="110.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../icons/newLogo.png" />
                </image>
@@ -42,16 +42,21 @@
                   <Image url="@../../icons/icons8-lock-26.png" />
                </image>
             </ImageView>
-            <Label focusTraversable="false" layoutX="99.0" layoutY="104.0" text="Sentinel" textAlignment="CENTER" textFill="#f5f5f5">
+            <Label focusTraversable="false" layoutX="92.0" layoutY="110.0" text="Gestor" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Ubuntu" size="28.0" />
                </font>
             </Label>
             <JFXSpinner fx:id="loggingProgress" layoutX="138.0" layoutY="342.0" />
             <JFXButton fx:id="loginButton" layoutX="16.0" layoutY="303.0" onAction="#handleLoginButton" prefHeight="28.0" prefWidth="275.0" ripplerFill="#f42952" style="-fx-background-color: #F4516C;" text="Login" textFill="WHITE" />
+            <Label focusTraversable="false" layoutX="179.0" layoutY="111.0" text="FX" textAlignment="CENTER" textFill="#c92121">
+               <font>
+                  <Font name="Ubuntu" size="28.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
-      <Label alignment="CENTER" focusTraversable="false" layoutX="15.0" layoutY="195.0" opacity="0.94" prefHeight="63.0" prefWidth="479.0" text="Bem vindo ao Sentinel" textAlignment="CENTER" textFill="WHITE">
+      <Label alignment="CENTER" focusTraversable="false" layoutX="15.0" layoutY="195.0" opacity="0.94" prefHeight="63.0" prefWidth="479.0" text="Bem vindo ao Gestor" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="FontAwesome Regular" size="45.0" />
          </font>
