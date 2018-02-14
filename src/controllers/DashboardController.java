@@ -8,6 +8,8 @@ import java.util.Arrays;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import database.Database;
 import javafx.animation.FadeTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -15,23 +17,28 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
+import javafx.stage.Window;
 import javafx.util.Duration;
 import javafx.scene.control.Label;
 import models.Login;
 
 
 public class DashboardController implements Initializable {
+
     Login user = new Login();
+    Database database = new Database();
 
     @FXML
     private Label userLabel;
     @FXML
-    private AnchorPane reciveScreenPane;
+    private AnchorPane reciveScreenPane, dashboardPane;
     @FXML
     private JFXButton homeButton, clientButton, providerButton, teamButton, productButton,
             paymentButton, reciveButton, reportButton;
 
     AnchorPane clientes, home;
+
 
     public void initialize(URL url, ResourceBundle rb) {
         userLabel.setText(user.getAuthUser());
@@ -46,6 +53,7 @@ public class DashboardController implements Initializable {
         } catch (IOException ex) {
             Logger.getLogger(DashboardController.class.getName()).log(Level.SEVERE, null, ex);
         }
+
     }
 
     private void setNode(Node node) {

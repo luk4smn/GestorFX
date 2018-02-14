@@ -17,5 +17,7 @@
             <Font name="Ubuntu" size="24.0" />
          </font>
       </Label>
+      <AnchorPane fx:id="contasAReceberScreenPane" layoutX="38.0" layoutY="149.0" prefHeight="459.0" prefWidth="429.0" />
+      <AnchorPane fx:id="recebidoPagoScreenPane" layoutX="482.0" layoutY="149.0" prefHeight="459.0" prefWidth="429.0" />
    </children>
 </AnchorPane>

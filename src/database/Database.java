@@ -9,20 +9,22 @@ import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
 public class Database{
 
     public Connection conn;                                             //conecta o BD
+
     public Statement stm;                                               //prepara e realiza pesquisa no BD
+
     public ResultSet rs;                                                //armazena o resultado da pesquisa
+
     private String driver,caminho,usuario,senha;
 
     private static final Properties config = new Properties();
+
     private static final String arquivo = "config.ini";
 
     public void connect(){                                           //metodo responsável por realizar a conexao cm o BD
         try {
-
             try {
 
                 config.load(new FileInputStream(arquivo));
