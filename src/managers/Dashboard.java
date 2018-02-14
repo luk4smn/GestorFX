@@ -1,5 +1,6 @@
 package managers;
 
+import controllers.DashboardController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -16,15 +17,21 @@ public class Dashboard extends Application {
     public void start(Stage stage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/views/dashboard/dashboard.fxml"));
 
+        DashboardController controller = new DashboardController();
+
         stage.setScene(new Scene(root));
 
         stage.getIcons().add(new Image("/icons/icone.png"));
 
-        stage.setTitle("Sentinel - Sistema de Gestão Empresarial");
+        stage.setTitle("GestorFX - Sistema de Gestão Empresarial");
 
         stage.setMaximized(true);
 
         stage.show();
+
+        stage.setOnCloseRequest(event ->
+                controller.closeDialog()
+        );
     }
 
     public static void main(String[] args) {

@@ -31,7 +31,7 @@
          </image>
       </ImageView>
       <TableView fx:id="tableClientes" layoutX="14.0" layoutY="183.0" prefHeight="565.0" prefWidth="987.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="183.0" />
-      <JFXButton fx:id="addClientRegisterButton" buttonType="RAISED" layoutX="20.0" layoutY="146.0" onAction="#newClient" prefHeight="29.0" prefWidth="86.0" ripplerFill="#0ecc1d" style="-fx-background-color: #A42C43;" text="Novo" textFill="WHITE" />
-      <JFXButton fx:id="openClientRegisterButton" buttonType="RAISED" disable="true" layoutX="121.0" layoutY="146.0" onAction="#openClient" prefHeight="29.0" prefWidth="111.0" ripplerFill="#0ecc1d" style="-fx-background-color: #A42C43;" text="Abir Cadastro" textFill="WHITE" />
+      <JFXButton fx:id="addClientRegisterButton" buttonType="RAISED" layoutX="20.0" layoutY="146.0" onAction="#newClient" prefHeight="29.0" prefWidth="86.0" style="-fx-background-color: #A42C43;" text="Novo" textFill="WHITE" />
+      <JFXButton fx:id="openClientRegisterButton" buttonType="RAISED" disable="true" layoutX="121.0" layoutY="146.0" onAction="#openClient" prefHeight="29.0" prefWidth="111.0" style="-fx-background-color: #A42C43;" text="Abir Cadastro" textFill="WHITE" />
    </children>
 </AnchorPane>

@@ -56,14 +56,14 @@
             </Label>
          </children>
       </AnchorPane>
-      <Label alignment="CENTER" focusTraversable="false" layoutX="15.0" layoutY="195.0" opacity="0.94" prefHeight="63.0" prefWidth="479.0" text="Bem vindo ao Gestor" textAlignment="CENTER" textFill="WHITE">
+      <Label alignment="CENTER" focusTraversable="false" layoutX="7.0" layoutY="193.0" opacity="0.94" prefHeight="63.0" prefWidth="498.0" text="Bem vindo ao GestorFX" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="FontAwesome Regular" size="45.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" focusTraversable="false" layoutX="18.0" layoutY="259.0" text="Sistema de Gestao Elaborado para suprir as necessiadades da sua empresa" textFill="#eeebeb">
+      <Label alignment="CENTER" focusTraversable="false" layoutX="9.0" layoutY="258.0" text="Sistema de Gestao Elaborado para suprir as necessiadades da sua empresa" textFill="#eeebeb">
          <font>
-            <Font name="Ubuntu" size="14.0" />
+            <Font name="FontAwesome Regular" size="14.0" />
          </font></Label>
       <JFXButton fx:id="closeButton" buttonType="RAISED" layoutX="843.0" layoutY="2.0" onMouseClicked="#close" prefHeight="23.0" prefWidth="23.0" ripplerFill="RED" text="X" textFill="WHITE">
          <font>

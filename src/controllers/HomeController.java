@@ -1,6 +1,7 @@
 package controllers;
 
 import charts.BarChartModel;
+import charts.LineChartModel;
 import charts.PieChartModel;
 import javafx.animation.FadeTransition;
 import javafx.fxml.FXML;
@@ -16,17 +17,19 @@ import java.util.ResourceBundle;
 public class HomeController implements Initializable {
 
     @FXML
-    private AnchorPane homeScreenPane,recebidoPagoScreenPane, contasAReceberScreenPane;
+    private AnchorPane homeScreenPane,recebidoPagoScreenPane, contasAReceberScreenPane, vendasScreenPane;
 
     static PieChart recebidoPagoGrafico;
+    static LineChart<String,Number> vendasGrafico;
     static StackedBarChart<String, Number> contasAeceberGrafico;
 
     public void initialize(URL location, ResourceBundle resources) {
         recebidoPago();
         contasAReceber();
+        demostrativoDeVendas();
     }
 
-    public void setNode(Node node, AnchorPane recivePane){
+    private void setNode(Node node, AnchorPane recivePane){
         recivePane.getChildren().clear();
         recivePane.getChildren().add(node);
 
@@ -44,7 +47,7 @@ public class HomeController implements Initializable {
         ft.play();
     }
 
-    public void recebidoPago(){
+    private void recebidoPago(){
         PieChartModel chart = new PieChartModel();
 
         recebidoPagoGrafico = chart.inputDataPieChart("Recebido/Pago (Este Mês)");
@@ -53,12 +56,20 @@ public class HomeController implements Initializable {
 
     }
 
-    public void contasAReceber(){
+    private void contasAReceber(){
         BarChartModel chart = new BarChartModel();
 
         contasAeceberGrafico = chart.inputDataBarChart("Contas A Receber (Este Mês)");
 
         setNode(contasAeceberGrafico,contasAReceberScreenPane);
+    }
+
+    private void demostrativoDeVendas(){
+        LineChartModel chart = new LineChartModel();
+
+        vendasGrafico = chart.inputDataLineChart("Progressão de Vendas");
+
+        setNode(vendasGrafico,vendasScreenPane);
     }
 
 

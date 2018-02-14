@@ -7,15 +7,14 @@ import javafx.scene.chart.XYChart;
 
 public class LineChartModel {
 
-    public void inputDataLineChart(){
+    public LineChart<String, Number> inputDataLineChart(String title){
         final CategoryAxis xAxis = new CategoryAxis();
         final NumberAxis yAxis = new NumberAxis();
         xAxis.setLabel("Month");
 
-        final LineChart<String,Number> lineChart =
-                new LineChart<String,Number>(xAxis,yAxis);
+        final LineChart<String,Number> lineChart = new LineChart<String,Number>(xAxis,yAxis);
 
-        lineChart.setTitle("Stock Monitoring, 2010");
+        lineChart.setTitle(title);
 
         XYChart.Series series = new XYChart.Series();
         series.setName("My portfolio");
@@ -34,5 +33,7 @@ public class LineChartModel {
         series.getData().add(new XYChart.Data("Dec", 25));
 
         lineChart.getData().add(series);
+
+        return lineChart;
     }
 }

@@ -1,6 +1,9 @@
 package models;
 import database.Database;
 import javafx.scene.control.Alert;
+import javafx.scene.image.Image;
+import javafx.stage.Stage;
+
 import java.sql.SQLException;
 
 public class Login {
@@ -43,6 +46,9 @@ public class Login {
                 alert.setHeaderText("Dados Incorretos");
 
                 alert.setContentText("Revise as informações e tente novamente");
+
+                Stage stage = (Stage) alert.getDialogPane().getScene().getWindow();
+                stage.getIcons().add(new Image("/icons/icone.png"));
 
                 alert.showAndWait();
             }

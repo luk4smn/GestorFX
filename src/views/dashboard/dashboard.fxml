@@ -155,6 +155,21 @@
                   </ImageView>
                </children>
             </Pane>
+            <Label layoutX="68.0" layoutY="727.0" opacity="0.8" text="Gestor" textFill="WHITE" AnchorPane.bottomAnchor="14.0">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="109.0" layoutY="727.0" opacity="0.8" text="FX" textFill="#c92121" AnchorPane.bottomAnchor="14.0">
+               <font>
+                  <Font name="Ubuntu" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="74.0" layoutY="671.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="37.0">
+               <image>
+                  <Image url="@../../icons/icone.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
       <AnchorPane fx:id="reciveScreenPane" layoutX="185.0" layoutY="-3.0" prefHeight="756.0" prefWidth="1015.0" style="-fx-background-color: #F2F3F8;" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="185.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-3.0" />
