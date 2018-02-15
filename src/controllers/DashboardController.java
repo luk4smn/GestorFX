@@ -9,7 +9,6 @@ import java.util.Optional;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import database.Database;
 import javafx.animation.FadeTransition;
 import javafx.event.ActionEvent;
@@ -17,13 +16,11 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
-import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import javafx.stage.Window;
 import javafx.util.Duration;
 import javafx.scene.control.Label;
 import models.Login;
@@ -39,8 +36,8 @@ public class DashboardController implements Initializable {
     @FXML
     private AnchorPane reciveScreenPane, dashboardPane;
     @FXML
-    private JFXButton homeButton, clientButton, providerButton, teamButton, productButton,
-            paymentButton, reciveButton, reportButton;
+    private JFXButton homeButton, clientButton, providerButton, teamButton,
+            productButton, paymentButton, reciveButton, reportButton;
 
     AnchorPane clientes, home;
 

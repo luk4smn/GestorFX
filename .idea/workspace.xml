@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/charts/LineChartModel.java" afterPath="$PROJECT_DIR$/src/charts/LineChartModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/DashboardController.java" afterPath="$PROJECT_DIR$/src/controllers/DashboardController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/HomeController.java" afterPath="$PROJECT_DIR$/src/controllers/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/managers/Dashboard.java" afterPath="$PROJECT_DIR$/src/managers/Dashboard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/Login.java" afterPath="$PROJECT_DIR$/src/models/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/clientes/index.fxml" afterPath="$PROJECT_DIR$/src/views/clientes/index.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/dashboard/dashboard.fxml" afterPath="$PROJECT_DIR$/src/views/dashboard/dashboard.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/home/index.fxml" afterPath="$PROJECT_DIR$/src/views/home/index.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/login/login.fxml" afterPath="$PROJECT_DIR$/src/views/login/login.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/Database.java" afterPath="$PROJECT_DIR$/src/database/Database.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,14 +62,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DashboardController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DashboardController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/DashboardController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="135">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#initialize#0;class#DashboardController#0" expanded="false" />
                 <element signature="method#setNode#0;class#DashboardController#0" expanded="false" />
+                <element signature="method#closeDialog#0;class#DashboardController#0" expanded="false" />
                 <element signature="method#changeButtonColor#0;class#DashboardController#0" expanded="false" />
                 <element signature="method#showHome#0;class#DashboardController#0" expanded="false" />
                 <element signature="method#showClientes#0;class#DashboardController#0" expanded="false" />
@@ -85,23 +79,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-389">
-              <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LineChartModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/charts/LineChartModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
-                <element signature="e#474#489#0" expanded="true" />
+                <element signature="method#setNode#0;class#HomeController#0" expanded="false" />
+                <element signature="method#recebidoPago#0;class#HomeController#0" expanded="false" />
+                <element signature="method#contasAReceber#0;class#HomeController#0" expanded="false" />
+                <element signature="method#demostrativoDeVendas#0;class#HomeController#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -182,15 +169,15 @@
         <option value="$PROJECT_DIR$/src/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/charts/BarChart.java" />
         <option value="$PROJECT_DIR$/src/controllers/ClienteController.java" />
-        <option value="$PROJECT_DIR$/src/database/Database.java" />
         <option value="$PROJECT_DIR$/src/charts/PieChart.java" />
         <option value="$PROJECT_DIR$/src/charts/BarChartModel.java" />
         <option value="$PROJECT_DIR$/src/charts/PieChartModel.java" />
         <option value="$PROJECT_DIR$/src/models/Login.java" />
         <option value="$PROJECT_DIR$/src/managers/Dashboard.java" />
-        <option value="$PROJECT_DIR$/src/controllers/DashboardController.java" />
         <option value="$PROJECT_DIR$/src/charts/LineChartModel.java" />
         <option value="$PROJECT_DIR$/src/controllers/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/database/Database.java" />
+        <option value="$PROJECT_DIR$/src/controllers/DashboardController.java" />
       </list>
     </option>
   </component>
@@ -247,23 +234,6 @@
             </path>
             <path>
               <item name="Gestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gestor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gestor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gestor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gestor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gestor" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -291,6 +261,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jfoenix.jar!/" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="gestor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -632,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518637139219</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix">
+      <created>1518649851367</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1518649851367</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -755,8 +735,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/animation/FadeInDownTransition.java" />
-    <entry file="file://$PROJECT_DIR$/src/animation/FadeInTransition.java" />
     <entry file="file://$PROJECT_DIR$/src/animation/FadeInUpTransition.java" />
     <entry file="file://$PROJECT_DIR$/src/animation/FadeOutTransition.java" />
     <entry file="file://$PROJECT_DIR$/src/animation/FadeOutUpTransition.java" />
@@ -970,6 +948,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="66" column="23" lean-forward="false" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+          <folding>
+            <element signature="method#initialize#0;class#LoginController#0" expanded="false" />
+            <element signature="e#1252#1445#0" expanded="false" />
+            <element signature="e#1491#1764#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -981,17 +964,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="49" column="83" lean-forward="false" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -999,6 +978,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gestor.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_gestor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1013,25 +1008,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/DashboardController.java">
+    <entry file="file://$PROJECT_DIR$/src/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setNode#0;class#DashboardController#0" expanded="false" />
-            <element signature="method#changeButtonColor#0;class#DashboardController#0" expanded="false" />
-            <element signature="method#showHome#0;class#DashboardController#0" expanded="false" />
-            <element signature="method#showClientes#0;class#DashboardController#0" expanded="false" />
+            <element signature="method#setNode#0;class#HomeController#0" expanded="false" />
+            <element signature="method#recebidoPago#0;class#HomeController#0" expanded="false" />
+            <element signature="method#contasAReceber#0;class#HomeController#0" expanded="false" />
+            <element signature="method#demostrativoDeVendas#0;class#HomeController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/database/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-389">
-          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="79" column="1" lean-forward="true" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+          <folding>
+            <element signature="method#connect#0;class#Database#0" expanded="false" />
+            <element signature="method#executeSQL#0;class#Database#0" expanded="false" />
+            <element signature="method#killDatabaseTasks#0;class#Database#0" expanded="false" />
+            <element signature="method#disconnect#0;class#Database#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/DashboardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="method#initialize#0;class#DashboardController#0" expanded="false" />
+            <element signature="method#setNode#0;class#DashboardController#0" expanded="false" />
+            <element signature="method#closeDialog#0;class#DashboardController#0" expanded="false" />
+            <element signature="method#changeButtonColor#0;class#DashboardController#0" expanded="false" />
+            <element signature="method#showHome#0;class#DashboardController#0" expanded="false" />
+            <element signature="method#showClientes#0;class#DashboardController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
